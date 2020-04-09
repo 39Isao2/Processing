@@ -48,3 +48,10 @@ strokeWeight(線幅);
 ```
 strokeWeight(3);
 ```
+
+### 線を無くす
+noStroke(); // カッコの中は何もなし
+```
+noStroke();
+```
+
