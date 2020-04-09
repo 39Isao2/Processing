@@ -11,6 +11,7 @@
 2001年にCasey Reas（ケーシー・リース）と Ben Fry（ベン・フライ）の2人が開発。<br>
 メディア・アートや教育用プログラミングとして使用されている。<br>
 JavaScript版P5.jsも広く普及。アートプログラミング入門や、プログラミングの基礎を覚えるのにも最適。<br>
+　
 
 
 - 言語：JAVA(Processing用に簡単になってる)
@@ -18,9 +19,6 @@ JavaScript版P5.jsも広く普及。アートプログラミング入門や、�
 
 ![processing_ide](https://github.com/55Kaerukun/Processing/blob/master/images/processing_ide.png)
 
-
-### 用途
-スケッチ、展示、アプリケーション
 
 &nbsp;
 &nbsp;
