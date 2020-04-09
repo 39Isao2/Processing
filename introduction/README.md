@@ -67,20 +67,20 @@ onformative
 
 ## openFrameworks
 
-
+<br>
 [http://openframeworks.cc/](http://openframeworks.cc/)
-
+<br>
 ![of_logo](https://yonekura907.github.io/dh17processing/of-logo.svg)
 
-
+<br>
 
 Zachary Lieberman, Theo Watson, Arturo Castroを中心に開発されたフレームワーク。<br>
 「詩を書くようにコードを書け」 by Zachary Lieberman<br>
 簡単に言うとProcessingの強化版。<br>
 C++で開発するためより高速な処理ができる。多くのアドオンがセンサー、映像、コード表現など技術を繋ぎ合わせることが得意。
+<br>
 
-
-- 言語：C++
+- 言語：C++<br>
 - 開発環境：Xcode、VisualStuio
 
 
