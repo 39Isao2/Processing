@@ -62,6 +62,7 @@ arc(250,300, 300, 200, radians(0), radians(180));
 ```
 
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample.png" width="500px">
 
 ### 複雑な形 : beginShape, endShape, vertex
 https://htsuda.net/archives/1266
