@@ -8,12 +8,12 @@
 ![processing_logo](https://github.com/55Kaerukun/Processing/blob/master/images/download.png)
 
 
-2001年にCasey Reas（ケーシー・リース）と Ben Fry（ベン・フライ）の2人が開発。
-メディア・アートや教育用プログラミングとして使用されている。
-JavaScript版P5.jsも広く普及。アートプログラミング入門や、プログラミングの基礎を覚えるのにも最適。
+2001年にCasey Reas（ケーシー・リース）と Ben Fry（ベン・フライ）の2人が開発。<br>
+メディア・アートや教育用プログラミングとして使用されている。<br>
+JavaScript版P5.jsも広く普及。アートプログラミング入門や、プログラミングの基礎を覚えるのにも最適。<br>
 
 
-- 言語：JAVA
+- 言語：JAVA(Processing用に簡単になってる)
 - 開発環境：Processing IDE
 
 ![processing_ide](https://github.com/55Kaerukun/Processing/blob/master/images/processing_ide.png)
