@@ -91,42 +91,13 @@ C++で開発するためより高速な処理ができる。多くのアドオ�
 
 
 
-### 用途
-スケッチ、展示、アプリケーション
-
-&nbsp;
-&nbsp;
-
 ### 事例紹介
 
-#### Mimic
 
-![image](http://www.creativeapplications.net/wp-content/uploads/2017/03/DesignIO-Mimic-IMG_0762.jpg)
-
-Design I/O
-
-[https://vimeo.com/207140893](https://vimeo.com/207140893)
-
-<!--
-#### particles
+<iframe src="https://player.vimeo.com/video/74124094" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/74124094">OF Showreel</a> from <a href="https://vimeo.com/of">openFrameworks</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 
-[![particles](http://img.youtube.com/vi/gvUpkknryaY/0.jpg)](http://www.youtube.com/watch?v= gvUpkknryaY)
-
-
-[http://special.ycam.jp/particles/en/new_installtion.html](http://special.ycam.jp/particles/en/new_installtion.html)
-
-[真鍋大度＋石橋素 「particles」ができるまで。2年越しで実現した巨大インスタレーションとは？](http://www.cbc-net.com/topic/2011/05/daito-motoi-particles-ycam/)
-
-&nbsp;
-
-#### Reactor for Awareness in Motion (RAM) Teaser
-
-YCAM InterLab
-
-[https://vimeo.com/61942488](https://vimeo.com/61942488)-->
-
-&nbsp;
 
 #### Sensing Streams
 
@@ -139,18 +110,6 @@ Ryuichi Sakamoto + Daito Manabe
 &nbsp;
 &nbsp;
 
-#### The Color Project at IFP Media Center by MPC New York
-
-MPC
-
-![image](http://www.creativeapplications.net/wp-content/uploads/2014/01/the_color_project_ifp_02-640x360.jpg)
-
-[https://vimeo.com/84711932](https://vimeo.com/84711932)
-
-
-&nbsp;
-&nbsp;
-&nbsp;
 
 
 
