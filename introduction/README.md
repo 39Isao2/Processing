@@ -15,7 +15,7 @@ Casey ReasとBenjamin Fryによるオープンソースプロジェクト。Java
 - 言語：JAVA
 - 開発環境：Processing IDE
 
-![processing_ide](img/processing_ide.png)
+![processing_ide](https://github.com/55Kaerukun/Processing/blob/master/images/processing_ide.png)
 
 
 ### 用途
