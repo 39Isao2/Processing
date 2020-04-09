@@ -141,7 +141,7 @@ Ryuichi Sakamoto + Daito Manabe
 ### 事例紹介
 
 
-####Pokémon GO
+#### Pokémon GO
 
 Niantic
 
@@ -149,7 +149,7 @@ Niantic
 
 &nbsp;
 
-####天才ケンケンパ
+#### 天才ケンケンパ
 
 teamLab
 
@@ -157,83 +157,6 @@ teamLab
 
 
 &nbsp;
-&nbsp;
-&nbsp;
-
-
-<!--
-## VVVV
-
-1998 - 
-
-[https://vvvv.org/](https://vvvv.org/)
-
-オーディオ、ビデオ、３Dアニメーションを組み合わせることに特化したツールキット
-
-- 言語/開発環境：vvvv （visual langage）
-
-![vvvv_gui](https://yonekura907.github.io/dh17processing/vvvv_gui.png)
-
-
-
-### 用途
-スケッチ、展示
-
-### 事例紹介
-
-#### In the Eyes of the Animal
-
-Marshmallow Laser Feast
-
-![image](http://www.creativeapplications.net/wp-content/uploads/2015/09/In-the-Eyes-of-the-Animal_20.jpg)
-
-
-[https://vimeo.com/140057053](https://vimeo.com/140057053)
-
-
-&nbsp;
-&nbsp;
-
-### Virtual Depictions: San Francisco – Cinematic data-driven sculpture
-
-Refik Anadol
-
-![image](http://www.creativeapplications.net/wp-content/uploads/2015/12/Virtual-Depictions-07.jpg)
-
-[https://vimeo.com/147304811](https://vimeo.com/147304811)
--->
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-
-
-#### particles
-
-
-[![particles](http://img.youtube.com/vi/gvUpkknryaY/0.jpg)](https://youtu.be/gvUpkknryaY)
-
-
-[http://special.ycam.jp/particles/en/new_installtion.html](http://special.ycam.jp/particles/en/new_installtion.html)
-
-&nbsp;
-
-[真鍋大度＋石橋素 「particles」ができるまで。2年越しで実現した巨大インスタレーションとは？](http://www.cbc-net.com/topic/2011/05/daito-motoi-particles-ycam/)
-
-&nbsp;
-
-#### Mesa Musical Shadows
-
-Daily tous les jours
-
-![image](http://www.creativeapplications.net/wp-content/uploads/2016/07/Dtlj_MusicalShadows_4_PhotoDtlj.jpg)
-
-
-
-[https://vimeo.com/163596013](https://vimeo.com/163596013)
-
-
 &nbsp;
 &nbsp;
 
