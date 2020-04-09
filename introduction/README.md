@@ -8,8 +8,9 @@
 ![processing_logo](https://github.com/55Kaerukun/Processing/blob/master/images/download.png)
 
 
-メディア・アートや教育用プログラミングとして開発された。
-Casey ReasとBenjamin Fryによるオープンソースプロジェクト。JavaScript版P5.jsも広く普及している。2Dのビジュアル表現に強い。短いコードで描画できるためスケッチ的に使われることも多い。
+2001年にCasey Reas（ケーシー・リース）と Ben Fry（ベン・フライ）の2人が開発。
+メディア・アートや教育用プログラミングとして使用されている。
+JavaScript版P5.jsも広く普及。アートプログラミング入門や、プログラミングの基礎を覚えるのにも最適。
 
 
 - 言語：JAVA
