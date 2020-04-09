@@ -1,4 +1,4 @@
-# インタラクティブデザイン概論
+# クリエイティブ・コーディング概論
 
 
 ## Processing
@@ -42,7 +42,6 @@ Cyrill Studer
 
 
 #### ジェネラティブ・アート
-Refik Anadol Studios
 
 ![image](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/6227993/picture_pc_c57f6520509cfa987eaa53ea63f5a54d.jpg)
 
@@ -68,7 +67,6 @@ onformative
 
 ## openFrameworks
 
-2005 -
 
 [http://openframeworks.cc/](http://openframeworks.cc/)
 
@@ -76,9 +74,10 @@ onformative
 
 
 
-
-Zachary Lieberman, Theo Watson, Arturo Castroを中心に開発されたフレームワーク。
-2D/3Dのビジュアル表現に強い。Processingより後発でその影響を受けているが、C++で開発するためより高速な処理ができる。多くのアドオンがあり多様な技術を繋ぎ合わせることに特化している。
+Zachary Lieberman, Theo Watson, Arturo Castroを中心に開発されたフレームワーク。<br>
+「詩を書くようにコードを書け」 by Zachary Lieberman<br>
+簡単に言うとProcessingの強化版。<br>
+C++で開発するためより高速な処理ができる。多くのアドオンがセンサー、映像、コード表現など技術を繋ぎ合わせることが得意。
 
 
 - 言語：C++
