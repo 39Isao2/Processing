@@ -122,7 +122,9 @@ Ryuichi Sakamoto + Daito Manabe
 ![unity_logo](https://yonekura907.github.io/dh17processing/unity_logo.png)
 
 
-複数のプラットホームに対応するゲームエンジン。2D/3D空間を持ち物理エンジンが予め搭載されいる。スマホアプリやVR機器への書き出しもできる為、ゲームを中心に幅広く使われている。
+複数のプラットホームに対応するゲームエンジン。インタラクティブコンテンツの展示はもちろん。<br>
+スマホアプリやVRの作成にも使われている。<br>
+2D/3D空間を持ち物理エンジンが予め搭載されいる。ゲームを中心に幅広く使われている。<br>
 
 
 - 言語：C#
@@ -138,21 +140,6 @@ Ryuichi Sakamoto + Daito Manabe
 
 ### 事例紹介
 
-#### Monument Vallery
-ustwo games
-
-
-
-[![Monument Vallery](http://img.youtube.com/vi/wC1jHHF_Wjo/0.jpg)](http://www.youtube.com/watch?v=wC1jHHF_Wjo)
-
-<!--&nbsp;
-
-#### Alto’s Adventure
-snowman
-
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/Wk5JupHelAg/0.jpg)](http://www.youtube.com/watch?v=Wk5JupHelAg)-->
-
-&nbsp;
 
 ####Pokémon GO
 
@@ -221,38 +208,6 @@ Refik Anadol
 &nbsp;
 
 
-## Max
-
-[Max7](https://cycling74.com/products/max)
-
-ビジュアル型プログラミング、音響系プログラミングとして歴史がある。
-
-
-### 用途
-楽曲、展示
-
-![max_gui](https://yonekura907.github.io/dh17processing/max_gui.png)
-
-
-
-- 言語/開発環境：Max （visual langage）
-
-
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-### 事例紹介
-
-#### Nike Music Shoe
-Daito Manabe, Tomoaki Yanagisawa
-
-[![Nike Music Shoe](http://img.youtube.com/vi/uS1exujG3cY/0.jpg)](http://www.youtube.com/watch?v=uS1exujG3cY)
-
-
-&nbsp;
-&nbsp;
 
 #### particles
 
