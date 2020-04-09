@@ -34,5 +34,5 @@ line(40,40,400,500);
 ### 背景色の設置
 background(r,g,b);
 ```
-background(40,40,400,500);
+background(255,255,255);
 ```
