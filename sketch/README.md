@@ -61,8 +61,9 @@ noStroke();
 arc(250,300, 300, 200, radians(0), radians(180));
 ```
 
-
+<br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample.png" width="500px">
+<br>
 
 ### 複雑な形 : beginShape, endShape, vertex
 https://htsuda.net/archives/1266
