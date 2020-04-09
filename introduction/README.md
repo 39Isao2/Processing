@@ -41,12 +41,12 @@ Cyrill Studer
 &nbsp;
 
 
-#### Wind of Boston
+#### ジェネラティブ・アート
 Refik Anadol Studios
 
-![image](img/windofboston.jpg)
+![image](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/6227993/picture_pc_c57f6520509cfa987eaa53ea63f5a54d.jpg)
 
-[https://vimeo.com/198005194](https://vimeo.com/198005194)
+https://note.com/p5aholic/n/n853fd1d137d1
 
 &nbsp;
 
