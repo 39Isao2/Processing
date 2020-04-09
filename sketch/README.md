@@ -36,3 +36,15 @@ background(r,g,b);
 ```
 background(255,255,255);
 ```
+
+### 塗り潰し
+fill(r,g,b); // 赤、青、緑(255がmax)
+```
+fill(255,0,0);
+```
+
+### 線幅の変更
+strokeWeight(線幅);
+```
+strokeWeight(3);
+```
