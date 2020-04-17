@@ -9,9 +9,9 @@ processingでは、最初の一回だけ実行したい処理をsetup()内に、
 
 
 ### mouseを使った例
-<br><br>
+<br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/intaraction_sample.png" width="800px">
-<br><br>
+<br>
 
 
 ### マウスの座標取得
@@ -30,6 +30,13 @@ random(30,100); 20以上、100未満の数
 fill(random(255),random(255),random(255));
 ```
 
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
 ### 罫線
 line(左上のX座標,左上のY座標,右上のY座標,右下のY座標);
 ```
