@@ -36,6 +36,12 @@ fill(random(255),random(255),random(255));
 <br>
 <br>
 <br>
+
+# 変数
+変数とは値をいれる箱のこと。C言語やJavaScript、ほぼ全てのプログラム言語で利用する重要概念。<br>
+processing初級では、主に数字や真偽地(true, false)を入れたりするのに利用する。<br>
+
+
 <br>
 ### 罫線
 line(左上のX座標,左上のY座標,右上のY座標,右下のY座標);
