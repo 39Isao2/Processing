@@ -9,7 +9,9 @@ processingでは、最初の一回だけ実行したい処理をsetup()内に、
 
 
 ### mouseを使った例
-
+<br><br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/intaraction_sample.png" width="400px">
+<br><br>
 
 
 ### マウスの座標取得
