@@ -5,7 +5,7 @@
 processingでは、最初の一回だけ実行したい処理をsetup()内に、常時繰り返し実行したい処理をdraw()内に記述します。<br>
 （サイズや背景設定などはsetup()内に、描画部分はdraw()に記述するのが流儀）<br><br>
 <strong style="color:red;">drawは1秒間に60回実行されます。</strong>
-<br>
+<br><br>
 
 
 ### mouseを使った例
