@@ -42,7 +42,13 @@ fill(random(255),random(255),random(255));
 processing初級では、主に数字や真偽地(true, false)を入れたりするのに利用する。<br>
 
 ### 型 名前 = 値; 
-例: int radius = 100;
+使用例: <br>
+int radius = 100;<br>
+
+radius = 200;<br>
+radius = 50;<br>
+のように、何度も上書きできる。<br>
+
 
 
 <br>
