@@ -43,12 +43,12 @@ processing初級では、主に数字や真偽地(true, false)を入れたりす
 
 ### 型 名前 = 値; 
 使用例: <br>
-int radius = 100;<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample2.png" width="800px">
+<br>
 
 radius = 200;<br>
 radius = 50;<br>
 のように、何度も上書きできる。<br>
-
 
 
 <br>
