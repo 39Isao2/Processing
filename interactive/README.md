@@ -72,7 +72,9 @@ PImage | 画像
 posX = posX + 1;
 ```
 
-
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample3.png" width="800px">
+<br>
 
 ```
 float posX = 250;
@@ -94,40 +96,30 @@ void draw(){
 ```
 
 
-### 背景色の設置
-background(r,g,b);
+### if文で、画面右までに行ったら左に戻る
+
 ```
-background(255,255,255);
+void draw(){
+  // 白で再度塗りつぶす
+  background(255,255,255);
+  fill(0,0,255);
+  
+  ellipse(posX,250,50,50);
+  
+  // x座標の更新
+  posX = posX+1;
+  
+  /*
+  if(posX > 500){
+     posX = 0;
+  }
+  */
+  
+  if(posX > 550){
+     posX = -50;
+  }
+  
+}
 ```
 
-### 塗り潰し
-fill(r,g,b); // 赤、青、緑(255がmax)
-```
-fill(255,0,0);
-```
-
-### 線幅の変更
-strokeWeight(線幅);
-```
-strokeWeight(3);
-```
-
-### 線を無くす
-noStroke(); // カッコの中は何もなし
-```
-noStroke();
-```
-
-### 円弧
-中心のx座標、中心のy座標、円の幅、円の高さ、開始の角度(ラジアン)、終了の角度(ラジアン)、PIE
-```
-arc(250,300, 300, 200, radians(0), radians(180), PIE);
-```
-
-### レッツお絵かき
-<br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample.png" width="500px">
-<br>
-
-### 複雑な形 : beginShape, endShape, vertex
-https://htsuda.net/archives/1266
+### if文は次回で詳しく！！
