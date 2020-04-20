@@ -1,0 +1,34 @@
+float posX = 250;
+float posY = 250;
+
+void setup(){
+  size(500,500);
+}
+
+void draw(){
+  // 白で再度塗りつぶす
+  background(255,255,255);
+  
+  // 一個目の丸
+  fill(0,0,255);
+  ellipse(posX,250,50,50);
+  
+  // 二個目の丸
+  fill(255,0,0);
+  ellipse(250,posY,50,50);
+  
+  // x座標の更新
+  posX = posX+5;
+  
+  // Y座標の更新
+  posY = posY+5;
+  
+  if(posX > 550){
+    posX = -50;
+  }
+  
+  if(posY > 550){
+    posY = -50;
+  }
+  
+}
