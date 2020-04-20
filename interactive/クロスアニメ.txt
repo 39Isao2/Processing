@@ -1,8 +1,10 @@
-float posX = 250;
-float posY = 250;
+float posX;
+float posY;
 
 void setup(){
   size(500,500);
+  posX = 250;
+  posY = 250;
 }
 
 void draw(){
