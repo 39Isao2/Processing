@@ -48,6 +48,14 @@ ellipse(250,250,radius,radius);<br>
 radius = 200;<br>
 のように、何度も上書きできる。<br>
 
+型 | 内容
+--- | ---
+int | 整数
+float | 少数
+boolean | 真偽値
+String | 文字列
+PImage | 画像
+
 
 <br>
 ### 罫線
