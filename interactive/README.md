@@ -39,16 +39,19 @@ fill(random(255),random(255),random(255));
 processing初級では、主に数字や真偽地(true, false)を入れたりするのに利用する。<br>
 
 ### 型 名前 = 値; 
-使用例: int radius = 100;<br>
-ellipse(250,250,radius,radius);<br>
+### int radius = 100;<br>
+使用例: ellipse(250,250,radius,radius);<br>
 radius = 200;<br>
 のように、何度も上書きできる。<br>
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample2.png" width="800px">
 <br>
 <br>
+
 ### 型の種類
+
 <br>
+
 型 | 内容
 --- | ---
 int | 整数
@@ -57,6 +60,7 @@ boolean | 真偽値
 String | 文字列
 PImage | 画像
 
+<br>
 
 # アニメーション
 <br>
