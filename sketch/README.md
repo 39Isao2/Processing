@@ -63,14 +63,15 @@ arc(250,300, 300, 200, radians(0), radians(180), PIE);
 
 ### レッツお絵かき
 <br>
-チャレンジ1(face.txt)
+チャレンジ1  (face.txt)
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/face.png" width="500px">
 <br>
-チャレンジ2(frog.txt)
+チャレンジ2  (frog.txt)
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample.png" width="500px">
 <br>
+カエルの色 fill(204,255,102);
 
 ### 複雑な形 : beginShape, endShape, vertex
 https://htsuda.net/archives/1266
