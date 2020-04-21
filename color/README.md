@@ -42,3 +42,5 @@ void draw(){
 https://note.com/fukkuu/n/nfbc9eccbac69 <br>
 https://ichi-up.net/2015/099 <br>
 https://www.interior-heart.com/seven-color/color/color2.html <br>
+<br>
+色相（H）と明度（B）を固定して彩度（S）だけいじると、類似色ができる
