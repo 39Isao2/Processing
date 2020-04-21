@@ -3,9 +3,6 @@
 アニメーションをリッチの見せる残像のテクニック<br>
 毎フレーム更新する際に少し透明な四角をかぶせる<br><br>
 
-
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/afterimage.png" width="500px">
-
 ```
 
 // x座標
@@ -37,4 +34,7 @@ void draw(){
 }
 
 ```
+
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/afterimage.png" width="500px">
 
