@@ -119,6 +119,10 @@ void draw(){
 
 ### 型[] 変数名 = new 型[個数]<br>
 
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/array_ball.png" width="500px">
+<br>
+
 ### 例: ランダムに3つのカラフルな円を描く
 ```
 //円の個数
@@ -173,6 +177,11 @@ void draw(){
 
 <br>
 配列と相性がよく、一気に大量の処理が可能。
+<br>
+
+
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/bound_ball.png" width="500px">
 <br>
 
 
