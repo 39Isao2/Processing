@@ -198,4 +198,59 @@ void draw(){
 
 ```
 
-#バウンドのアニメーションを配列 + for文で大量表示させてみよう！
+# バウンドのアニメーションを配列 + for文で大量表示させてみよう！
+
+```
+
+//グローバル変数
+//円の個数
+int NUM = 100;
+//円座標
+float[] posX = new float[NUM];
+float[] posY = new float[NUM];
+//スピード
+float[] speedX = new float[NUM];
+float[] speedY = new float[NUM];
+//円の直径
+float[] diameter = new float[NUM];
+//色相
+int[] hue = new int[NUM];
+
+void setup(){
+  size(500,500);
+  noStroke();
+  //初期値 配列にfor
+  
+  for(int i=0; i<NUM; i+=1){
+    posX[i] = random(0,width);
+    posY[i] = random(0,height);
+    speedX[i] = random(-4,4);
+    speedY[i] = random(-4,4);
+    diameter[i] = random(4,20);
+    hue[i] = (int)random(360);
+  }
+}
+
+
+void draw(){
+  background(0);
+  colorMode(HSB,360,100,100,100);
+  
+  for(int i=0; i<NUM; i++){
+    fill(hue[i],100,100,50);
+    
+    //XYの座標にスピードを足す
+    posX[i] = posX[i] + speedX[i];
+    posY[i] = posY[i] + speedY[i];
+    //跳ね返り
+    if(posX[i] > width || posX[i] <0){
+      speedX[i] = speedX[i] * -1;
+    }
+    if(posY[i] > height || posY[i] <0){
+      speedY[i] = speedY[i] * -1;
+    }
+    ellipse(posX[i],posY[i],diameter[i],diameter[i]);
+  }
+}
+
+```
