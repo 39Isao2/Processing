@@ -121,181 +121,93 @@ void draw(){
 
 ### 型[] 変数名 = new 型[個数]<br>
 
-### 例: 配列を使って3個のの丸をバウンドさせてみよう！
+### 例: ランダムに3つの円を描く
 ```
-
-
-//グローバル変数
 //円の個数
-int NUM = 100;
-//円座標
+int NUM = 3;
+
+// 円の座標
 float[] posX = new float[NUM];
 float[] posY = new float[NUM];
-//スピード
-float[] speedX = new float[NUM];
-float[] speedY = new float[NUM];
+
 //円の直径
 float[] diameter = new float[NUM];
-//色相
-int[] hue = new int[NUM];
 
 void setup(){
-  size(500,500);
-  noStroke();
-  //初期値 配列にfor
   
-  for(int i=0; i<NUM; i+=1){
-    posX[i] = random(0,width);
-    posY[i] = random(0,height);
-    speedX[i] = random(-4,4);
-    speedY[i] = random(-4,4);
-    diameter[i] = random(4,20);
-    hue[i] = (int)random(360);
-  }
+  size(500,500);
+  
+  // X座標
+  posX[0] = random(0,width);
+  posX[1] = random(0,width);
+  posX[2] = random(0,width);
+  
+  // Y座標
+  posY[0] = random(0,height);
+  posY[1] = random(0,height);
+  posY[2] = random(0,height);
+  
+  // 半径
+  diameter[0] = random(10,50);
+  diameter[1] = random(10,50);
+  diameter[2] = random(10,50);
+  
+}
+
+void draw(){
+  background(255);
+  fill(255,0,255);
+  ellipse(posX[0],posY[0],diameter[0],diameter[0]);
+  ellipse(posX[1],posY[1],diameter[1],diameter[1]);
+  ellipse(posX[2],posY[2],diameter[2],diameter[2]);
 }
 
 
-void draw(){
-  background(0);
-  colorMode(HSB,360,100,100,100);
+```
+
+
+# for文
+
+<br>
+配列と相性がよく、一気に大量の処理が可能。
+<br>
+
+
+
+```
+
+//円の個数
+int NUM = 50;
+
+// 円の座標
+float[] posX = new float[NUM];
+float[] posY = new float[NUM];
+
+//円の直径
+float[] diameter = new float[NUM];
+
+void setup(){
   
-  for(int i=0; i<NUM; i++){
-    fill(hue[i],100,100,50);
-    
-    //XYの座標にスピードを足す
-    posX[i] = posX[i] + speedX[i];
-    posY[i] = posY[i] + speedY[i];
-    //跳ね返り
-    if(posX[i] > width || posX[i] <0){
-      speedX[i] = speedX[i] * -1;
-    }
-    if(posY[i] > height || posY[i] <0){
-      speedY[i] = speedY[i] * -1;
-    }
+  size(500,500);
+  
+  for(int i = 0; i<NUM; i++){
+    posX[i] = random(0,width);
+    posY[i] = random(0,height);
+    diameter[i] = random(10,50);
+  }
+}
+
+void draw(){
+  background(255);
+  fill(255,0,255);
+  
+  for(int i = 0; i<NUM; i++){
     ellipse(posX[i],posY[i],diameter[i],diameter[i]);
   }
 }
 
-
 ```
 
-
-### mouseを使った例
-<br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/intaraction_sample.png" width="800px">
-<br>
-
-
-### マウスの座標取得
-mouseX (現在のマウスのx座標)<br>
-mouseY (現在のマウスのY座標)<br>
-```
-// 例
-ellipse(mouseX,mouseY,100, 100);
-```
-
-### 乱数の生成
-random(255); 0以上、255未満の数
-random(30,100); 20以上、100未満の数
-```
-// 例
-fill(random(255),random(255),random(255));
-```
-
-
-<br>
-<br>
-
-# 変数
-変数とは値をいれる箱のこと。C言語やJavaScript、ほぼ全てのプログラム言語で利用する重要概念。<br>
-processing初級では、主に数字や真偽地(true, false)を入れたりするのに利用する。<br>
-
-### 型 名前 = 値; 
-### int radius = 100;<br>
-使用例: ellipse(250,250,radius,radius);<br>
-radius = 200;<br>
-のように、何度も上書きできる。<br>
-<br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample2.png" width="800px">
-<br>
-<br>
-
-### 型の種類
-
-<br>
-
-型 | 内容
---- | ---
-int | 整数
-float | 少数
-boolean | 真偽値
-String | 文字列
-PImage | 画像
-
-<br>
-
-# アニメーションの基礎
-<br>
-<br>
-変数を使って、座標を少しずつ移動させてアニメーションを実現させる<br>
-
-```
-// 現在のposXの値に1ずつプラスする
-posX = posX + 1;
-```
-
-<br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample3.png" width="800px">
-<br>
-
-```
-float posX = 250;
-
-void setup(){
-  size(500,500);
-}
-
-void draw(){
-  // 白で再度塗りつぶす
-  background(255,255,255);
-  fill(0,0,255);
-  
-  ellipse(posX,250,50,50);
-  
-  // x座標の更新
-  posX = posX+1;
-}
-```
-
-
-### if文で、画面右までに行ったら左に戻る
-
-```
-void draw(){
-  // 白で再度塗りつぶす
-  background(255,255,255);
-  fill(0,0,255);
-  
-  ellipse(posX,250,50,50);
-  
-  // x座標の更新
-  posX = posX+1;
-  
-  /*
-  if(posX > 500){
-     posX = 0;
-  }
-  */
-  
-  if(posX > 550){
-     posX = -50;
-  }
-  
-}
-```
-
-<br>
-問題！posYにして、上下運動に変更してみよう！<br><br>
-問題！丸を二個にして、クロスするアニメーションを作ろう。
-
-### 条件分岐(if文)は次回で詳しく！！
+#バウンドのアニメーションを配列 + for文で大量表示させてみよう！
+  for(int i = 0; i<NUM; i++){の
+  for(int i = 0; i<NUM; i++){
