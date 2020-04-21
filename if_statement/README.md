@@ -4,7 +4,7 @@
 前回のアニメーションしていた円をバウンドさせてみましょう！<br>
 
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/intaraction_sample.png" width="800px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample4..png" width="800px">
 <br>
 
 ### 左右にバウンド
@@ -108,6 +108,13 @@ void draw(){
   
 }
 ```
+
+
+<br>
+<br>
+<br>
+# 配列
+変数を順序付けてたくさんしまえるローカールームのような存在。
 
 
 ### mouseを使った例
