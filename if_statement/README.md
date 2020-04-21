@@ -119,18 +119,20 @@ void draw(){
 
 ### 型[] 変数名 = new 型[個数]<br>
 
-### 例: ランダムに3つの円を描く
+### 例: ランダムに3つのカラフルな円を描く
 ```
 //円の個数
 int NUM = 3;
-
 // 円の座標
 float[] posX = new float[NUM];
 float[] posY = new float[NUM];
+// 色相
+float[] col = new float[NUM]; 
 
 void setup(){
-  
   size(500,500);
+  colorMode(HSB,360,100,100,100);
+  
   
   // X座標
   posX[0] = random(0,width);
@@ -142,13 +144,24 @@ void setup(){
   posY[1] = random(0,height);
   posY[2] = random(0,height);
   
+  // 色相
+  col[0] = random(0,360);
+  col[1] = random(0,360);
+  col[2] = random(0,360);
+  
+  
 }
 
 void draw(){
-  background(255);
-  fill(255,0,255);
+  
+  // 白
+  background(360,0,100,100);
+  
+  fill(col[0],100,100,100);
   ellipse(posX[0],posY[0],100,100);
+  fill(col[1],100,100,100);
   ellipse(posX[1],posY[1],50,50);
+  fill(col[2],100,100,100);
   ellipse(posX[2],posY[2],70,70);
 }
 
@@ -167,7 +180,7 @@ void draw(){
 ```
 
 //円の個数
-int NUM = 50;
+int NUM = 100;
 
 // 円の座標
 float[] posX = new float[NUM];
@@ -176,22 +189,27 @@ float[] posY = new float[NUM];
 //円の直径
 float[] diameter = new float[NUM];
 
+// 
+float[] hue = new float[NUM];
+
 void setup(){
   
   size(500,500);
+  colorMode(HSB,360,100,100,100);
   
   for(int i = 0; i<NUM; i++){
     posX[i] = random(0,width);
     posY[i] = random(0,height);
     diameter[i] = random(10,50);
+    hue[i] = random(360);
   }
 }
 
 void draw(){
-  background(255);
-  fill(255,0,255);
-  
+  // 白
+  background(360,0,100,100);
   for(int i = 0; i<NUM; i++){
+    fill(hue[i],100,100,100);
     ellipse(posX[i],posY[i],diameter[i],diameter[i]);
   }
 }
@@ -204,7 +222,7 @@ void draw(){
 
 //グローバル変数
 //円の個数
-int NUM = 100;
+int NUM = 50;
 //円座標
 float[] posX = new float[NUM];
 float[] posY = new float[NUM];
