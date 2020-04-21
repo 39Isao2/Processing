@@ -4,9 +4,7 @@
 
 
 colorModeをHSBに変更して扱うと配色設計しやすい。<br>
-色相環（hue circle）<br>
-https://www.petitmonte.com/javascript/color_wheel.html
-
+色相環（hue circle） : https://www.petitmonte.com/javascript/color_wheel.html <br>
 ```
 colorMode(HSB,360,100,100,100);
 ```
