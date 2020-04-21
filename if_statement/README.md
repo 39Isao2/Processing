@@ -54,16 +54,58 @@ void draw(){
 ### 上下左右にバウンド
 変数sppdをもう一つY用に作るとずれる<br>
 ```
-/* 追加部分のコード */
 //グローバル変数
-speedY = 2;
+//x座標
+int posX;
+int posY;
+int speedX;
+int speedY;
+int diameter; //円の直径
 
 void setup(){
+  size(500,500);
+  background(255);
+  posX = width/2;
+  posY = height/2;
+  speedX = 4;
   speedY = 2;
+  diameter = 30;
 }
 
+
 void draw(){
+  
+  background(255);
+  
+  // 円の位置更新
+  posX = posX + speedX;
   posY = posY + speedY;
+  
+  //もし、posXが画面幅（width）より大きくなったら
+  if(posX > width){
+    //speedXに-1をかける
+    speedX = speedX * -1;
+  }
+  //もし、posXが0より小さくなったら
+  if(posX < 0){
+    //speedXに-1をかける
+    speedX = speedX * -1;
+  }
+  
+  
+  //もし、posYが画面高さより大きくなったら
+  if(posY > height){
+    speedY = speedY * -1;
+  }
+  //もし,posYが0より小さくなったら
+  if(posY < 0 + diameter/2){
+    speedY = speedY * -1;
+  }
+  
+  // 円の描画
+  fill(0,255,0);
+  ellipse(posX,posY,diameter,diameter);
+  
 }
 ```
 
