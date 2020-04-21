@@ -108,8 +108,6 @@ void draw(){
   
 }
 ```
-
-
 <br>
 <br>
 <br>
@@ -130,9 +128,6 @@ int NUM = 3;
 float[] posX = new float[NUM];
 float[] posY = new float[NUM];
 
-//円の直径
-float[] diameter = new float[NUM];
-
 void setup(){
   
   size(500,500);
@@ -147,24 +142,19 @@ void setup(){
   posY[1] = random(0,height);
   posY[2] = random(0,height);
   
-  // 半径
-  diameter[0] = random(10,50);
-  diameter[1] = random(10,50);
-  diameter[2] = random(10,50);
-  
 }
 
 void draw(){
   background(255);
   fill(255,0,255);
-  ellipse(posX[0],posY[0],diameter[0],diameter[0]);
-  ellipse(posX[1],posY[1],diameter[1],diameter[1]);
-  ellipse(posX[2],posY[2],diameter[2],diameter[2]);
+  ellipse(posX[0],posY[0],100,100);
+  ellipse(posX[1],posY[1],50,50);
+  ellipse(posX[2],posY[2],70,70);
 }
 
 
 ```
-
+しかし、10個、100個となると記述が大変....
 
 # for文
 
@@ -209,5 +199,3 @@ void draw(){
 ```
 
 #バウンドのアニメーションを配列 + for文で大量表示させてみよう！
-  for(int i = 0; i<NUM; i++){の
-  for(int i = 0; i<NUM; i++){
