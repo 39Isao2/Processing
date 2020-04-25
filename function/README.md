@@ -1,6 +1,6 @@
 # 関数
 
-「色を青にして、丸を描く」など、処理をひとまとめにして呼び出す機能<br>
+処理をひとまとめにして呼び出す機能<br>
 setup、drawの外で定義する。<br>
 
 ```
@@ -11,33 +11,26 @@ void 関数名(){
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/function.png" width="500px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/function.png" width="800px">
 
 ```
-
-// 例 青い丸を描く関数
-
 void setup(){
-  setHS
+  size(500,500);
+  // カラーモードをHSBに（癖にしましょう）
+  colorMode( HSB, 360, 100, 100,100);
+  // 色(暗記しましょう)
+  background(100,0,100);
 }
 
 void draw(){
-  
-  // 透明な四角を上から塗りつぶす
-  fill(0,0,0,10);
-  rect(0, 0, width, height);
+  // 関数の呼び出し
+  drawBlueCircle();
+}
 
-  // 円の描画
-  fill(0,0,255);
-  ellipse(posX, height/2, 100, 100);
-  
-  // 座標の更新
-  posX = posX+3;
-  
-  // 一番左に戻す
-  if(posX > width){
-    posX = 0;
-  }
+// 関数の定義
+void drawBlueCircle(){
+  fill(240,100,100);
+  ellipse(width/2,height/2,100,100);
 }
 
 ```
