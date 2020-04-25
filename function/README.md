@@ -9,6 +9,8 @@ void 関数名(){
   処理内容〜
 }
 
+<br>
+
 ```
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/function.png" width="800px">
@@ -34,4 +36,6 @@ void drawBlueCircle(){
 }
 
 ```
+
+<br>
 
