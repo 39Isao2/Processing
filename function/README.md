@@ -39,3 +39,6 @@ void drawBlueCircle(){
 
 <br>
 
+# シーンの切り替え （keyPressed)
+
+キーボードの入力と関数を利用して、シーンを切り替える<br>
