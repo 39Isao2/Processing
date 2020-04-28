@@ -30,7 +30,7 @@ ellipse(0,0,100,100);
 
 冷静になると難しくないので公式を覚えて描いてみよう！<br>
 これだけ覚えれば大丈夫！<br>
-<strong>x座標 = 半径 * cos（θ）</strong> <br>
+<strong>x座標 = 半径 * cos（θ）</strong> <br><br>
 <strong>y座標 = 半径 * sin(θ)</strong>
 <br>
 
