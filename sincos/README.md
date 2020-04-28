@@ -70,6 +70,10 @@ void draw() {
 
 ```
 
+<br>
+参考:ラジアンについて https://sci-pursuit.com/math/radian.html
+<br>
+
 
 
 
