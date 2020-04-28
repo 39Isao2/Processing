@@ -185,3 +185,50 @@ void draw() {
 }
 
 ```
+
+
+
+## 円の透明度を変更
+
+```
+
+float theta; //角度
+float diameter; //円の半径
+float alpha; // 透明度
+
+void setup() {
+  size(500,500);
+  alpha = 0;
+  theta = 0;
+  diameter = 300;
+}
+
+void draw() {
+  
+  // 背景塗り潰し
+  background(0);
+  // 起点を中心に
+  translate(width/2, height/2);
+  
+ 
+  // 怪しい...
+  alpha = sin(radians(theta));
+  alpha = abs(alpha);
+  alpha = alpha * 255.0;
+  
+  // 透明度変更
+  fill(0,255,0,alpha);
+  
+  
+  // 円を描画
+  ellipse(0, 0, 100, 100);
+  
+  theta++;
+  
+  if(theta > 360){
+    theta = 0;
+  }
+  
+}
+
+```
