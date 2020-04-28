@@ -212,9 +212,10 @@ void draw() {
   
  
   // 怪しい...
-  alpha = sin(radians(theta));
+  alpha = sin(radians(theta) * 0.5);
   alpha = abs(alpha);
   alpha = alpha * 255.0;
+  //println(alpha);
   
   // 透明度変更
   fill(0,255,0,alpha);
