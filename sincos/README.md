@@ -15,13 +15,15 @@
 
 <br>
 
-まずは、translate(width/2, height/2)で中心を起点に！ <br>
+まずは、<strong>translate(width/2, height/2)</strong>で中心を起点に！ <br>
 （三角関数や3Dを扱う時によく使います。）
 <br>
 
 ```
-
-// ここに円を描くコード
+// 中心に円を描く
+size(500,500);
+translate(width/2,height/2);
+ellipse(0,0,100,100);
 
 ```
 
