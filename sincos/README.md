@@ -151,41 +151,36 @@ void draw(){
 
 ```
 
-## だんだんと伸縮
+## だんだんと伸縮する円
 
 ```
-
-float size; //大きさ
 float theta; //角度
- 
+float radius; 
+
 void setup() {
-  size(500,500); 
-  size = 100;
+  size(500,500);
+  radius = 300;
   theta = 0;
-  noStroke();
-  fill(0,255,0);
-  background(0);
 }
 
-
-
 void draw() {
-  
   background(0);
-  translate(width/2,height/2);
   
-  // 半径
-  float r = size * sin(theta);
+  // 起点を中心に
+  translate(width/2, height/2);
   
-  // 円を描く
-  ellipse(0,0,r,r);
+  // 半径を徐々に増減
+  float diameter = sin(radians(theta)) * radius;
   
-  // 角度の更新
-  theta+=0.05;
-  //もしthetaが360以上になったら0にする。
-  if (theta >= 360){
+  // 円を描画
+  ellipse(0, 0, diameter, diameter);
+  
+  theta++;
+  
+  if(theta > 360){
     theta = 0;
   }
+  
   
 }
 
