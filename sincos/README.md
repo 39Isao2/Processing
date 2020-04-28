@@ -71,6 +71,9 @@ void draw() {
 ```
 
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin.png" width="800px">
+
+
 
 ## サイン波形を書いてみよう。
 
