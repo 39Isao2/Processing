@@ -10,6 +10,10 @@
 ## 三角関数で円を描いてみよう！ （ellipse を使わず。）
 
 <br>
+<img src="https://thebookofshaders.com/05/sin_cos.png">
+<br>
+
+<br>
 
 
 ```
