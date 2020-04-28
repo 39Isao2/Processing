@@ -23,7 +23,39 @@ rect(0, 0, 30, 20);
 
 いちいち座標を動かしたり戻したりするのが面倒,,,,
 
-## 
+## 座標の保存 （スタック）
+pushMatrixとpopMatrixを使って、座標の一時保存をします。
+
+```
+void setup(){
+  size(300,300);
+  rectMode(CENTER);
+}
+
+void draw(){
+  
+  background(255);
+  
+  // 原点を中心に
+  translate(width/2, height/2);
+  
+  // pushMatrix ~ popMatrixの間の座標空間が保存される
+  pushMatrix();
+      rotate(radians(45));
+      fill(255,255,0);
+      rect(0,0,100,100);
+  popMatrix();
+  
+  pushMatrix();
+    fill(255,0,0);
+    rect(0,0,100,100);
+  popMatrix();
+  
+}
+
+```
+
+
 
 
 
