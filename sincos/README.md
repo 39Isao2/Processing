@@ -152,3 +152,41 @@ void draw(){
 ```
 
 ## だんだんと伸縮
+
+```
+
+float size; //大きさ
+float theta; //角度
+ 
+void setup() {
+  size(500,500); 
+  size = 100;
+  theta = 0;
+  noStroke();
+  fill(0,255,0);
+  background(0);
+}
+
+
+
+void draw() {
+  
+  background(0);
+  translate(width/2,height/2);
+  
+  // 半径
+  float r = size * sin(theta);
+  
+  // 円を描く
+  ellipse(0,0,r,r);
+  
+  // 角度の更新
+  theta+=0.05;
+  //もしthetaが360以上になったら0にする。
+  if (theta >= 360){
+    theta = 0;
+  }
+  
+}
+
+```
