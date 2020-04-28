@@ -28,11 +28,46 @@ ellipse(0,0,100,100);
 ```
 
 
-### 冷静になると難しくないので公式を覚えて描いてみよう！
+冷静になると難しくないので公式を覚えて描いてみよう！<br>
+これだけ覚えれば大丈夫！<br>
+<strong>x座標 = 半径 * cos（θ）</strong>
+<strong>y座標 = 半径 * sin(θ)</strong>
+<br>
 
-これだけ覚えれば大丈夫！
-#### x座標 = 半径 * cos（θ）
-#### y座標 = 半径 * sin(θ)
+```
+
+float posX, posY;  //中心点のx, y座標
+float radius = 200;  //半径
+int theta = 0;  //角度
+ 
+void setup() {
+  size(500, 500);  
+  noStroke();
+  fill(0,255,0);
+  background(0);
+}
+ 
+void draw() {
+ 
+  //background(0);
+  translate(width/2,height/2);
+  
+ 
+  // 円を描く
+  posX = radius * cos(radians(theta));
+  posY = radius * sin(radians(theta));
+  ellipse(posX, posY, 10,10);
+  
+  theta++;
+  
+  //もしthetaが360以上になったら0にする。
+  if (theta >= 360){
+    theta = 0;
+  }
+  
+}
+
+```
 
 
 
