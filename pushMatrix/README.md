@@ -2,6 +2,8 @@
 
 現在の座標の保存と回転を使ってみましょう。
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/pushMatrix.png" width="500px">
+
 ## translateで座標を移動してみる。
 
 ```
@@ -25,6 +27,8 @@ rect(0, 0, 30, 20);
 
 ## 座標の保存 （スタック）
 pushMatrixとpopMatrixを使って、座標の一時保存をします。
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/pushMatrix2.png" width="500px">
 
 ```
 void setup(){
@@ -59,7 +63,9 @@ void draw(){
 
 
 
-## 綺麗なサンプル
+## 実践！
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/pushMatrix3.png" width="500px">
 
 ```
 
