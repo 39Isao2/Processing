@@ -26,15 +26,14 @@ JavaScript版P5.jsも広く普及。アートプログラミング入門や、�
 ### 事例紹介
 
 #### Flight Patterns
-Aaron Koblin
+Aaron Koblin <br>
+http://www.aaronkoblin.com/
 
 http://www.aaronkoblin.com/project/flight-patterns/
 
 [![Flight Patterns](http://img.youtube.com/vi/ystkKXzt9Wk/0.jpg)](http://www.youtube.com/watch?v=ystkKXzt9Wk)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ystkKXzt9Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-&nbsp;
 
 
 <!--#### CARVEL’ / Baby Behold
@@ -44,6 +43,11 @@ Cyrill Studer
 
 &nbsp;
 
+
+
+
+
+<!--#### Actelion Imagery Wizard
 
 #### ジェネラティブ・アート
 
@@ -55,8 +59,6 @@ https://note.com/p5aholic/n/n853fd1d137d1
 sketch_190707b
 <br>
 
-
-<!--#### Actelion Imagery Wizard
 
 onformative
 
