@@ -252,9 +252,6 @@ https://threejs.org/
 Processing、openFramewoks、Maxなどと連動。
 
 
-
-### 事例紹介
-
 <!--
 #### Bouquet
 
