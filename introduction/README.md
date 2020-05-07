@@ -28,7 +28,11 @@ JavaScript版P5.jsも広く普及。アートプログラミング入門や、�
 #### Flight Patterns
 Aaron Koblin
 
+http://www.aaronkoblin.com/project/flight-patterns/
+
 [![Flight Patterns](http://img.youtube.com/vi/ystkKXzt9Wk/0.jpg)](http://www.youtube.com/watch?v=ystkKXzt9Wk)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ystkKXzt9Wk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 &nbsp;
 
