@@ -255,6 +255,7 @@ Processing、openFramewoks、Maxなどと連動。
 
 ### 事例紹介
 
+<!--
 #### Bouquet
 
 ![image](http://www.creativeapplications.net/wp-content/uploads/2017/05/Bouquet_ECAL_03.jpg)
@@ -263,6 +264,7 @@ Processing、openFramewoks、Maxなどと連動。
 
 &nbsp;
 &nbsp;
+-->
 
 
 
