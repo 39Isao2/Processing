@@ -80,6 +80,10 @@ mainColor = color(255, 166, 231);￼
 fill(mainColor);
 ```
 
+
+<img width="400px" src="https://github.com/55Kaerukun/Processing/blob/master/images/var.png">
+
+
 &nbsp;
 
 #### boolean型
@@ -97,8 +101,9 @@ isClick = false;￼ // 偽（false）を保存
 
 ```
 println(num);
-
 ```
+
+<img width="300px" src="https://github.com/55Kaerukun/Processing/blob/master/images/print.png">
 
 
 
