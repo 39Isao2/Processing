@@ -10,7 +10,6 @@ size(横幅,縦幅);
 size(500,500);
 ```
 
-<br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/size.jpg" width="500px">
 <br>
 
@@ -18,14 +17,18 @@ size(500,500);
 ### 四角形
 rect(x,y,横幅,縦幅);
 ```
-rect(100,100,100,50);
+rect(100,100,200,200);
 ```
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/rect.jpg" width="500px">
+<br>
 
 ### 楕円
 ellipse(x,y,楕円の幅,高さ);
 ```
-ellipse(300,300,100,100);
+ellipse(200,200,100,100);
 ```
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/ellipse.jpg" width="500px">
+<br>
 
 ### 罫線
 line(左上のX座標,左上のY座標,右上のY座標,右下のY座標);
