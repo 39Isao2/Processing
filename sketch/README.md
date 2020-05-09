@@ -10,6 +10,11 @@ size(横幅,縦幅);
 size(500,500);
 ```
 
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/size.jpg" width="500px">
+<br>
+
+
 ### 四角形
 rect(x,y,横幅,縦幅);
 ```
