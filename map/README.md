@@ -14,8 +14,6 @@ float value = ofMap(num, 0, 10, 0, 100)
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/map.png" width="400px">
-
 
 ## サンプルコード
 
@@ -38,6 +36,10 @@ void draw(){
 }
 
 ```
+
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/map.png" width="700px">
+
 
 ```
 Arduionoでの使用例。（0 ~ 1023で返ってくる）
