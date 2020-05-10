@@ -2,9 +2,7 @@
 
 # 3Dプログラミング
 
-boxの表示
-
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/box.png" width="800px"> 
+## boxの表示
 
 ```
 void setup() {
@@ -22,10 +20,9 @@ void draw() {
 }
 ```
 
-sphereの表示
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/box.png" width="800px"> 
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sphere.png" width="800px"> 
-
+## sphereの表示
 
 ```
 
@@ -52,6 +49,8 @@ void draw() {
 }
 
 ```
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sphere.png" width="800px"> 
 
 大量の線形パーティクル
 
