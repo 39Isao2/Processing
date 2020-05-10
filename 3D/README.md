@@ -4,6 +4,8 @@
 
 boxの表示
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/box.png" width="800px"> 
+
 ```
 void setup() {
   size(500, 500, P3D);
@@ -21,6 +23,8 @@ void draw() {
 ```
 
 sphereの表示
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sphere.png" width="800px"> 
 
 
 ```
