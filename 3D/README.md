@@ -52,7 +52,7 @@ void draw() {
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sphere.png" width="800px"> 
 
-大量の線形パーティクル
+## 大量の線形パーティクル
 
 ```
 int num = 100;
