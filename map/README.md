@@ -14,6 +14,8 @@ float value = ofMap(num, 0, 10, 0, 100)
 
 ```
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/map.png" width="400px">
+
 
 ## サンプルコード
 
