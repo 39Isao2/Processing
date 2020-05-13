@@ -3,6 +3,8 @@
 ## 図形の描画
 <br>
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sketch1.png" width="300px">
+
 ### キャンバスサイズの設定
 
 size(横幅,縦幅);
