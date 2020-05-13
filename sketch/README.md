@@ -3,7 +3,7 @@
 ## 図形の描画
 <br>
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sketch1.png" width="300px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sketch1.png" width="500px">
 
 ### キャンバスサイズの設定
 
