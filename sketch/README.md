@@ -71,6 +71,14 @@ noStroke();
 arc(250,250, 300, 200, radians(0), radians(180), PIE);
 ```
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/arc.jpg" width="500px">
+<br>
+
+
+
+
+
+
 ### レッツお絵かき
 <br>
 チャレンジ1  (face.txt)
