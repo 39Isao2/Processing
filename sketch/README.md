@@ -42,13 +42,14 @@ line(40,40,400,500);
 ## 色や線幅の設定
 
 ### 背景色の設置
-background(r,g,b);
+
+background(r,g,b); // 赤、緑、青(255がmax)
 ```
 background(255,255,255);
 ```
 
 ### 塗り潰し
-fill(r,g,b); // 赤、青、緑(255がmax)
+fill(r,g,b); // 赤、緑、青(255がmax)
 ```
 fill(255,0,0);
 ```
@@ -71,7 +72,7 @@ noStroke();
 arc(250,250, 300, 200, radians(0), radians(180), PIE);
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/arc.jpg" width="700px">
+<!-- <img src="https://github.com/55Kaerukun/Processing/blob/master/images/arc.jpg" width="700px"> -->
 <br>
 
 
