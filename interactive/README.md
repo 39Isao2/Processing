@@ -44,7 +44,7 @@ processing初級では、主に数字や真偽地(true, false)を入れたりす
 radius = 200;<br>
 のように、何度も上書きできる。<br>
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample2.png" width="800px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample2-1.png" width="800px">
 <br>
 <br>
 
