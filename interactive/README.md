@@ -77,10 +77,12 @@ posX = posX + 1;
 <br>
 
 ```
-float posX = 250;
+// ここで宣言
+float posX;
 
 void setup(){
   size(500,500);
+  posX = 250;
 }
 
 void draw(){
