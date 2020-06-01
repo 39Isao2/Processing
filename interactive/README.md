@@ -38,10 +38,12 @@ fill(random(255),random(255),random(255));
 変数とは値をいれる箱のこと。C言語やJavaScript、ほぼ全てのプログラム言語で利用する重要概念。<br>
 processing初級では、主に数字や真偽地(true, false)を入れたりするのに利用する。<br>
 
-### 型 名前 = 値; 
-### int diameter = 100;<br><br>
+### 型 名前; 
+### int diameter;<br><br>
+### diameter = 200;
 使用例: ellipse(250,250,diameter,diameter);<br><br>
-diameter = 200;<br><br>
+
+diameter = 100;<br><br>
 のように、何度も上書きできる。<br>
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sample2-3.png" width="800px">
