@@ -23,8 +23,8 @@ ellipse(mouseX,mouseY,100, 100);
 ```
 
 ### 乱数の生成
-random(255); 0以上、255未満の数
-random(30,100); 20以上、100未満の数
+random(255); 0以上、255未満の数<br>
+random(30,100); 30以上、100未満の数
 ```
 // 例
 fill(random(255),random(255),random(255));
