@@ -40,6 +40,7 @@ processing初級では、主に数字や真偽地(true, false)を入れたりす
 
 ### 型 名前; 
 ### int diameter;
+### 代入(値を入れること); 
 ### diameter = 200;
 使用例: ellipse(250,250,diameter,diameter);<br><br>
 
