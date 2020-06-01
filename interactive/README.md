@@ -39,8 +39,8 @@ fill(random(255),random(255),random(255));
 processing初級では、主に数字や真偽地(true, false)を入れたりするのに利用する。<br>
 
 ### 型 名前 = 値; 
-### int radius = 100;<br>
-使用例: ellipse(250,250,radius,radius);<br>
+### int diameter = 100;<br>
+使用例: ellipse(250,250,diameter,diameter);<br>
 radius = 200;<br>
 のように、何度も上書きできる。<br>
 <br>
