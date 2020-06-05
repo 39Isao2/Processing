@@ -12,7 +12,7 @@
 
 int posX;
 int posY;
-int speed;
+ speed;
 
 void setup(){
   // 背景サイズ
