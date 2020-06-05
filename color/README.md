@@ -8,7 +8,7 @@ colorModeをHSBに変更して扱うと配色設計しやすい。<br>
 ```
 colorMode(HSB,360,100,100,100);
 ```
-色相、彩度、明度、透明（アルファ）で表現 トーンが固定されるので配色設計しやすい<br>
+色相、彩度、明度、透明度（アルファ）で表現 トーンが固定されるので配色設計しやすい<br>
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/hsb.png" width="500px">
 
