@@ -67,8 +67,8 @@ void setup(){
   background(255);
   posX = width/2;
   posY = height/2;
-  speedX = 4;
-  speedY = 2;
+  speedX = 3;
+  speedY = 6;
   diameter = 30;
 }
 
@@ -77,34 +77,25 @@ void draw(){
   
   background(255);
   
+  // 円の描画
+  fill(0,255,0);
+  ellipse(posX,posY,diameter,diameter);
+  
+  
   // 円の位置更新
   posX = posX + speedX;
   posY = posY + speedY;
   
-  //もし、posXが画面幅（width）より大きくなったら
-  if(posX > width){
-    //speedXに-1をかける
-    speedX = speedX * -1;
-  }
-  //もし、posXが0より小さくなったら
-  if(posX < 0){
-    //speedXに-1をかける
+  
+  //posXのバウンド処理
+  if(posX > width || posX < 0){
     speedX = speedX * -1;
   }
   
-  
-  //もし、posYが画面高さより大きくなったら
-  if(posY > height){
+  //posYのバウンド処理
+  if(posY > height || posY < 0){
     speedY = speedY * -1;
   }
-  //もし,posYが0より小さくなったら
-  if(posY < 0 + diameter/2){
-    speedY = speedY * -1;
-  }
-  
-  // 円の描画
-  fill(0,255,0);
-  ellipse(posX,posY,diameter,diameter);
   
 }
 ```
