@@ -42,7 +42,7 @@ void draw(){
   
   //壁にぶつかっていたら-1をかける
   if (posX > width || posX < 0) {
-    speed *= -1;
+    speed = speed * -1;
   }
  
   //丸を書く
