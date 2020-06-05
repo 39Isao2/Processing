@@ -12,7 +12,7 @@
 
 int posX;
 int posY;
-float speed;
+int speed;
 
 void setup(){
   // 背景サイズ
@@ -23,7 +23,7 @@ void setup(){
   posY = height/2;
   
   // スピード
-  speed = 3.0;
+  speed = 3;
   
   noStroke();
 }
