@@ -15,12 +15,19 @@
 
 <br>
 
-まずは、<strong>translate(width/2, height/2)</strong>で中心を起点に！ <br>
+## 三角関数を使って円を描くときは中心を起点にするとやりやすい。
 （三角関数や3Dを扱う時によく使います。）
+<br>
+```
+// translate(起点のx座標, 起点のy座標)
+// 中心を起点に
+translate(width/2, height/2
+```
+
 <br>
 
 ```
-// 中心に円を描く
+// とりあえずellipseで中心に円を描く
 size(500,500);
 translate(width/2,height/2);
 ellipse(0,0,100,100);
@@ -29,7 +36,7 @@ ellipse(0,0,100,100);
 
 
 冷静になると難しくないので公式を覚えて描いてみよう！<br>
-これだけ覚えれば大丈夫！<br>
+これだけ覚えれば大丈夫！<br><br>
 <strong>x座標 = 半径 * cos（θ）</strong> <br>
 <strong>y座標 = 半径 * sin(θ)</strong>
 <br>
@@ -38,13 +45,14 @@ ellipse(0,0,100,100);
 ```
 
 float posX, posY;  //中心点のx, y座標
-float radius = 200;  //半径
+float radius; //直径
 int theta = 0;  //角度
  
 void setup() {
   size(500, 500);  
   noStroke();
   fill(0,255,0);
+  radius = 200;
   background(0);
 }
  
@@ -53,12 +61,13 @@ void draw() {
   //background(0);
   translate(width/2,height/2);
   
- 
+
   // 円を描く
   posX = radius * cos(radians(theta));
   posY = radius * sin(radians(theta));
   ellipse(posX, posY, 10,10);
   
+
   theta++;
   
   //もしthetaが360以上になったら0にする。
@@ -66,6 +75,7 @@ void draw() {
     theta = 0;
   }
   
+
 }
 
 ```
@@ -75,13 +85,14 @@ void draw() {
 <br>
 
 
-
-
-
-
 ## サイン波形を書いてみよう。
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin.png" width="800px">
+<br>
+
+
+（最初は難しいのでsin(だんだん増える値)を入れると 
+~1から1の値が返ってくると覚えればとりあえずOK！）
 <br>
 
 ```
@@ -118,11 +129,11 @@ void draw(){
   
   //線なし
   noStroke();
+
   //塗り
   fill(0,255,255);
   
-  
-  
+
   // sin()は -1 ~ +1の間の値を返す
   // sin(経過時間)
   float posY = amplitude * sin(radians(theta));
@@ -154,6 +165,7 @@ void draw(){
 ## だんだんと伸縮する円
 
 ```
+
 float theta; //角度
 float radius; 
 
@@ -164,6 +176,7 @@ void setup() {
 }
 
 void draw() {
+
   background(0);
   
   // 起点を中心に
@@ -181,55 +194,7 @@ void draw() {
     theta = 0;
   }
   
-  
 }
 
 ```
 
-
-
-## 円の透明度を変更 (あとで直す...)
-
-```
-
-float theta; //角度
-float diameter; //円の半径
-float alpha; // 透明度
-
-void setup() {
-  size(500,500);
-  alpha = 0;
-  theta = 0;
-  diameter = 300;
-}
-
-void draw() {
-  
-  // 背景塗り潰し
-  background(0);
-  // 起点を中心に
-  translate(width/2, height/2);
-  
- 
-  // 怪しい...
-  alpha = sin(radians(theta) * 0.5);
-  alpha = abs(alpha);
-  alpha = alpha * 255.0;
-  //println(alpha);
-  
-  // 透明度変更
-  fill(0,255,0,alpha);
-  
-  
-  // 円を描画
-  ellipse(0, 0, 100, 100);
-  
-  theta++;
-  
-  if(theta > 360){
-    theta = 0;
-  }
-  
-}
-
-```
