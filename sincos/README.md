@@ -167,11 +167,11 @@ void draw(){
 ```
 
 float theta; //角度
-float radius; 
+float scale; 
 
 void setup() {
   size(500,500);
-  radius = 300;
+  scale = 300;
   theta = 0;
 }
 
@@ -183,7 +183,7 @@ void draw() {
   translate(width/2, height/2);
   
   // 半径を徐々に増減
-  float diameter = sin(radians(theta)) * radius;
+  float diameter = sin(radians(theta)) * scale;
   
   // 円を描画
   ellipse(0, 0, diameter, diameter);
