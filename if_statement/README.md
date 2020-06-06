@@ -171,6 +171,21 @@ void draw(){
 <br>
 <br>
 
+```
+
+for (初期化式; 条件式; 変化式) {
+    // 条件式がtrueのときに繰り返す処理
+}
+
+例: 変数NUMの数だけ、処理を繰り返す
+int NUM = 4;
+
+for(int i = 0; i < NUM; i++){
+    println(i);
+}
+
+```
+
 
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/bound_ball.png" width="500px">
