@@ -45,13 +45,15 @@ void drawBlueCircle(){
 
 ```
 
-// シーンを管理する関数
+// シーンを管理する変数
 int scene;
 
 void setup( ) {
     size(600,600);
     colorMode(HSB,360,100,100,100);
     background(100,0,100);
+
+    // 四角形の描画起点を真ん中に
     rectMode(CENTER);
     strokeWeight(3);
     
@@ -75,6 +77,7 @@ void draw( ) {
     }
     
 }
+
 
 void keyPressed(){
   
