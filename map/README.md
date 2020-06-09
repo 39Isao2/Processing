@@ -8,7 +8,7 @@ map(num, a, b, c, d) numを範囲a-bから別の範囲c-dへ変換する
 float num = 2.0;
 
 // numを範囲0-10から別の範囲0-100へ変換する
-float value = ofMap(num, 0, 10, 0, 100)
+float value = map(num, 0, 10, 0, 100)
 
 // value は 20
 
@@ -41,6 +41,7 @@ void draw(){
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/map.png" width="700px">
 
 
+# Arduionoでの使用例。
 ```
 Arduionoでの使用例。（0 ~ 1023で返ってくる）
 float val = 0;
