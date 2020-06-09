@@ -112,6 +112,7 @@ void draw(){
 
 宣言方法 ↓ <br>
 ### 型[] 変数名 = new 型[個数]<br>
+### float[] posX = new float[3]<br>
 
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/array_ball.png" width="500px">
