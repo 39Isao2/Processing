@@ -18,21 +18,28 @@ float value = map(num, 0, 10, 0, 100)
 ## サンプルコード
 
 ```
+float diameter;
+
 void setup(){
-  size(1000,1000);
+  size(500,500);
   noStroke();
-  colorMode(HSB,360,100,100,100);
+  diameter = 0;
 }
 
 void draw(){
-  background(0,0,100);
+  background(255);
   
-  float hue = map(mouseY, 0, height, 0, 360);
-  fill(hue,100,100);
+  // mouseXの値を変数posXに
+  float posX = mouseX;
   
-  float r = map(mouseX, 0, width, 0 ,600);
-  //ellipse(width/2,height/2,mouseX,mouseX);
-  ellipse(width/2,height/2,r,r);
+  // 値の調整 本来０〜500のところを0~100に変換！
+  diameter = map(posX, 0, 500, 0, 100);
+  //println(diameter);
+  
+  
+    // 緑色
+  fill(0,255,0);
+  ellipse(width/2, height/2, diameter, diameter);
 }
 
 ```
