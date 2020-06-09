@@ -2,9 +2,9 @@
 jpg、png、gif、svg 形式に対応している。  
 Processingで画像を表示するためには、  
 pdeファイルと同階層に「data」フォルダを作成し、その中に画像ファイルを入れる  
-
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/fd.png" width="300px">
-
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/fd.png" width="500px">
+<br>
 
 サンプルコード  
 
