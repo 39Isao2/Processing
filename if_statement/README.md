@@ -105,7 +105,11 @@ void draw(){
 
 # 配列
 
-値を順序付けてたくさんしまえるローカールームのような存在。<br>
+値を順序付けてたくさんしまえるローカールームのような存在。  
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/array.jpg" width="500px">  
+<br>
+
+
 宣言方法 ↓ <br><br>
 
 ### 型[] 変数名 = new 型[個数]<br>
