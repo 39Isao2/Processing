@@ -40,10 +40,11 @@ void draw(){
 processingメニュー＞スケッチ＞ライブラリーを追加＞soundで検索  
 出てきたら、soundを選択＞インストール。  
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sound.png" width="">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sound.png" width="500px">
 <br>
 
-画像のようにpdeファイルと同階層に「data」フォルダを作成し、その中に音ファイルを入れる(mp3、wav形式などが使用可能)  
+画像のようにpdeファイルと同階層に「data」フォルダを作成し、  
+その中に音ファイルを入れる(mp3、wav形式などが使用可能)  
 サンプルコード  
 ```
 
