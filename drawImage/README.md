@@ -33,3 +33,40 @@ void draw(){
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/drawImage.png" width="">
 <br>
+
+
+# 音の使い方 (取り急ぎ)
+
+processingメニュー＞スケッチ＞ライブラリーを追加＞soundで検索  
+出てきたら、soundを選択＞インストール。  
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sound.png" width="">
+<br>
+
+画像のようにpdeファイルと同階層に「data」フォルダを作成し、その中に音ファイルを入れる(mp3、wav形式などが使用可能)  
+サンプルコード  
+```
+
+// 音ライブラリを使う宣言
+import processing.sound.*;
+
+// SoundFile型変数を定義
+SoundFile music;
+
+void setup(){
+  // 音データ読み込み
+  music = new SoundFile(this,"soudfile.mp3");
+}
+
+void draw(){
+ //注意！drawの中でplay()させると基本的には再生され続けてします。（1秒間に60回play()が発動してるから）
+  
+}
+
+void mousePressed(){
+  // マウスを押すと音が鳴る
+  music.play();
+}
+
+
+```
