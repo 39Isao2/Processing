@@ -271,7 +271,7 @@ void draw(){
   colorMode(HSB,360,100,100,100);
   
   for(int i=0; i<NUM; i++){
-    fill(hue[i],100,100,50);
+    fill(hue[i],100,100,100);
     
     //XYの座標にスピードを足す
     posX[i] = posX[i] + speedX[i];
