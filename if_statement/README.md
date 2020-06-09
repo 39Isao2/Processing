@@ -134,19 +134,19 @@ void setup(){
   
   
   // X座標
-  posX[0] = random(0,width);
-  posX[1] = random(0,width);
-  posX[2] = random(0,width);
+  posX[0] = random(width);
+  posX[1] = random(width);
+  posX[2] = random(width);
   
   // Y座標
-  posY[0] = random(0,height);
-  posY[1] = random(0,height);
-  posY[2] = random(0,height);
+  posY[0] = random(height);
+  posY[1] = random(height);
+  posY[2] = random(height);
   
   // 色相
-  col[0] = random(0,360);
-  col[1] = random(0,360);
-  col[2] = random(0,360);
+  col[0] = random(360);
+  col[1] = random(360);
+  col[2] = random(360);
   
   
 }
@@ -218,8 +218,8 @@ void setup(){
   colorMode(HSB,360,100,100,100);
   
   for(int i = 0; i<NUM; i++){
-    posX[i] = random(0,width);
-    posY[i] = random(0,height);
+    posX[i] = random(width);
+    posY[i] = random(height);
     diameter[i] = random(10,50);
     hue[i] = random(360);
   }
@@ -260,8 +260,8 @@ void setup(){
   //初期値 配列にfor
   
   for(int i=0; i<NUM; i+=1){
-    posX[i] = random(0,width);
-    posY[i] = random(0,height);
+    posX[i] = random(width);
+    posY[i] = random(height);
     speedX[i] = random(-4,4);
     speedY[i] = random(-4,4);
     diameter[i] = random(4,20);
