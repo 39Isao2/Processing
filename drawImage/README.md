@@ -31,5 +31,5 @@ void draw(){
 
 ```
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/drawImage.png" width="600px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/drawImage.png" width="">
 <br>
