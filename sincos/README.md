@@ -87,7 +87,7 @@ void draw() {
 
 ## サイン波形を書いてみよう。
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin.png" width="800px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin1.png" width="800px">
 <br>
 
 
@@ -109,7 +109,7 @@ float theta;
 float amplitude;
 
 void setup(){
-  size(500,500);
+  size(1000,500);
   background(0);
   //初期値は画面の中央
   posX = width/2;
@@ -121,8 +121,8 @@ void setup(){
 
 void draw(){
   
-  fill(0,0,0,10);
-  rect(0,0,width,height);
+  //fill(0,0,0,10);
+  //rect(0,0,width,height);
   
   //画面のY座標起点を中央に下げる
   translate(0,height/2);
