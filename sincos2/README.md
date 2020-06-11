@@ -9,6 +9,7 @@
 この2つの作品も三角関数（サイン、コサイン）を使ってでできています。<br><br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyumen.png" width="500px">
 <br>
+<br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin.png" width="500px">
 <br>
 <br>
