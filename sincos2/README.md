@@ -6,12 +6,12 @@
 <img src="https://thebookofshaders.com/05/sincos.gif">
 <br>
 
-この2つの作品も三角関数（サイン、コサイン）を使ってでできています。<br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyumen.png">
+この2つの作品も三角関数（サイン、コサイン）を使ってでできています。<br><br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyumen.png" width="500px">
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin.png">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin.png" width="500px">
 <br>
-
+<br>
 
 
 <br>
