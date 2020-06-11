@@ -84,7 +84,7 @@ arc(250,250, 300, 200, radians(0), radians(180), PIE);
 <br>
 チャレンジ1  (face.txt)
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/face.png" width="500px">
+<!--<img src="https://github.com/55Kaerukun/Processing/blob/master/images/face.png" width="500px">-->
 <br>
 チャレンジ2  (frog.txt)
 <br>
