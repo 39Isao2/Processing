@@ -97,7 +97,7 @@ void draw() {
 
 ## サイン波形を書いてみよう。
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin.png" width="800px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin1.png" width="800px">
 <br>
 
 
