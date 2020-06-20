@@ -55,7 +55,7 @@ ellipse(0,0,100,100);
 ```
 
 float posX, posY;  //中心点のx, y座標
-float radius; //直径
+float radius; // 半径
 int theta = 0;  //角度
  
 void setup() {
