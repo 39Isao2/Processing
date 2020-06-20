@@ -11,26 +11,25 @@ void 関数名(){
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/function.png" width="800px">
+<!--<img src="https://github.com/55Kaerukun/Processing/blob/master/images/function.png" width="800px">-->
 
+# 青い丸を描く関数
 ```
 void setup(){
   size(500,500);
-  
-  colorMode( HSB, 360, 100, 100,100);
-  
-  // 白
-  background(100,0,100);
+  background(255);
 }
 
 void draw(){
+
   // 関数の呼び出し
   drawBlueCircle();
+  
 }
 
 // 関数の定義
 void drawBlueCircle(){
-  fill(240,100,100);
+  fill(0,0,255);
   ellipse(width/2,height/2,100,100);
 }
 
