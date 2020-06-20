@@ -9,8 +9,6 @@ void 関数名(){
   処理内容〜
 }
 
-<br>
-
 ```
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/function.png" width="800px">
@@ -18,9 +16,10 @@ void 関数名(){
 ```
 void setup(){
   size(500,500);
-  // カラーモードをHSBに（癖にしましょう）
+  
   colorMode( HSB, 360, 100, 100,100);
-  // 色(暗記しましょう)
+  
+  // 白
   background(100,0,100);
 }
 
