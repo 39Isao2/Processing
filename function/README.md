@@ -13,7 +13,7 @@ void 関数名(){
 
 <!--<img src="https://github.com/55Kaerukun/Processing/blob/master/images/function.png" width="800px">-->
 
-# 青い丸を描く関数
+## 例:青い丸を描く関数 drawBlueCircle()
 ```
 void setup(){
   size(500,500);
