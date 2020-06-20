@@ -40,8 +40,38 @@ void drawBlueCircle(){
 # 関数を使ってコードを綺麗に書く
 *インデントの話も
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/face.png" width="500px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/face.png" width="300px">
 <br>
+
+このコードを関数を使ってわかりやすいプログラムにしてみよう！
+
+```
+void setup(){
+  size(500,500);
+  background(255);
+}
+
+void draw(){
+
+  // 顔
+  fill(204,255,102);
+  rect(50,50,400,400);
+
+  // 目
+  fill(0);
+  ellipse(250-100,150,50,50);
+  ellipse(250+100,150,50,50);
+
+  // 鼻
+  rect(250,220,30,30);
+
+
+  //　口
+  fill(255,0,0);
+  arc(250,300, 250, 250, radians(0), radians(180), PIE);
+}
+
+```
 
 
 # シーンの切り替え （keyPressed)
