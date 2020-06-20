@@ -30,7 +30,7 @@
 <br>
 ```
 // translate(起点のx座標, 起点のy座標)
-// 中心を起点に
+// 中心を起点に （drawの中に記述しないといけない）
 translate(width/2, height/2
 ```
 
