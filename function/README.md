@@ -37,6 +37,13 @@ void drawBlueCircle(){
 
 <br>
 
+# 関数を使ってコードを綺麗に書く
+*インデントの話も
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/face.png" width="500px">
+<br>
+
+
 # シーンの切り替え （keyPressed)
 
 キーボードの入力と関数を利用して、シーンを切り替える<br>
