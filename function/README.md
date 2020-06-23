@@ -38,7 +38,7 @@ void drawBlueCircle(){
 <br>
 
 # 関数を使ってコードを綺麗に書く
-*インデントの話も
+
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/face.png" width="300px">
 <br>
@@ -119,13 +119,13 @@ void keyPressed(){
     // ランダムに色変更
     fill(random(100),100,100);
   
-    if(key == "a"){
+    if(key == 'a'){
     // aを押したら      
       scene = 1; // シーンを1に変更  
-    } else if(key == "s"){
+    } else if(key == 's'){
     // sを押したら
       scene = 2; // シーンを2に変更
-    } else if(key == "d"){
+    } else if(key == 'd'){
     // dを押したら
       scene = 3; // シーンを3に変更
     }
