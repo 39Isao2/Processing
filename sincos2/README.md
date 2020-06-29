@@ -119,7 +119,7 @@ float theta;
 float amplitude;
 
 void setup(){
-  size(500,500);
+  size(1000,500);
   background(0);
   //初期値は画面の中央
   posX = width/2;
@@ -150,7 +150,7 @@ void draw(){
   println(posY);
  
   //円を描画
-  ellipse(posX,posY,40,40);
+  ellipse(posX,posY,20,20);
   
   //x座標にスピードを足す
   posX = posX + speed;
