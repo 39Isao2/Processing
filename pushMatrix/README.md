@@ -66,7 +66,7 @@ void draw(){
 int NUM = 720;
 
 void setup(){
-  size (1000, 500);
+  size (500, 500);
   colorMode(HSB, 360, 100, 100, 100);
   background(0);
   noStroke();
