@@ -63,15 +63,15 @@ void draw(){
 
 ```
 
+int NUM = 720;
+
 void setup(){
   size (1000, 500);
   colorMode(HSB, 360, 100, 100, 100);
-  background(100,100,0,100);
+  background(0);
   noStroke();
-  smooth();
-  rectMode(CENTER);
   
-  for (int i = 0; i < 720; i++){
+  for (int i = 0; i < NUM; i++){
     pushMatrix();
     translate(random(width), random(height));
     rotate(random(radians(180)));
