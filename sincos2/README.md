@@ -56,13 +56,14 @@ ellipse(0,0,100,100);
 
 float posX, posY;  //中心点のx, y座標
 float radius; // 半径
-int theta = 0;  //角度
+int theta;  //角度
  
 void setup() {
   size(500, 500);  
   noStroke();
   fill(0,255,0);
   radius = 200;
+  theta = 0;
   background(0);
 }
  
