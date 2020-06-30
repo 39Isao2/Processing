@@ -75,7 +75,6 @@ void setup(){
     pushMatrix();
     translate(random(width), random(height));
     rotate(random(radians(180)));
-    //scale(random(0.5, 1));
     fill(random(360), 100, 100, 100);
     ellipse(0, 0, 10, 50);
     popMatrix();
