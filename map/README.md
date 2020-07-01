@@ -3,14 +3,22 @@
 ### 値の調整に使う。Arduionoなどのデバイスでもよく使用する。
 
 ```
-map(num, a, b, c, d) numを範囲a-bから別の範囲c-dへ変換する
+// map(num, a, b, c, d) numを範囲a-bから別の範囲c-dへ変換する
 
-float num = 2.0;
 
-// numを範囲0-10から別の範囲0-100へ変換する
-float value = map(num, 0, 10, 0, 100)
+float num;
 
-// value は 20
+void setup(){
+  
+  num = 2.0;
+  
+  // numを範囲0-10から別の範囲0-100へ変換する
+  float value = map(num, 0, 10, 0, 100);
+  
+  // valueは 20
+  println(value);
+  
+}
 
 ```
 
