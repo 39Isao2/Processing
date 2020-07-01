@@ -46,10 +46,10 @@ void draw(){
       rect(0,0,100,100);
   popMatrix();
   
-  pushMatrix();
-    fill(255,0,0);
-    rect(0,0,100,100);
-  popMatrix();
+
+  fill(255,0,0);
+  rect(0,0,100,100);
+
   
 }
 
