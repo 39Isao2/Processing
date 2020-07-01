@@ -42,7 +42,7 @@ void draw(){
   
   // 値の調整 本来０〜500のところを0~100に変換！
   radius = map(posX, 0, 500, 0, 100);
-  //println(diameter);
+  //println(radius);
   
   
     // 緑色
