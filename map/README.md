@@ -59,9 +59,6 @@ void draw(){
 # Arduionoでの使用例。
 ```
 Arduionoでの使用例。（0 ~ 1023で返ってくる）
-float val = 0;
-
-float mapVal = map(val,0,1023,0,255);
 
 // 例えばrgbで使いたかったら (0,0,255);
 float r = map(r,0,1023,0,255);
