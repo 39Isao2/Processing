@@ -3,7 +3,10 @@
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/particle.png" width="300px">
 
 
-'''
+
+```
+
+// この方法は我流なので怪しい
 
 void setup(){
   size(500,500);
@@ -33,7 +36,8 @@ void draw(){
 
 
 
-'''
+
+```
 
 
 
