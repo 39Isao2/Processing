@@ -1,8 +1,5 @@
 # 発光の表現
 
-電球や星、ホタルのような、それ自体が光っているような効果を出す。<br>
-**blendMode(SCREEN);  (その後に描画される図形は重なった部分の色が足される) <br>
-**blendMode(ADD)は色が重なって白くなってします。 <br>
 
 
 ## まずはblendMode()の種類を3つ把握  （初期値、ADD、SCREEN）
@@ -10,8 +7,11 @@
 参考リンク<br>
 ProcessingのblendMode()の使い方<br>
 http://aa-deb.hatenablog.com/entry/2016/11/03/181953 <br><br>
-ぼんやり光る効果を出す簡単な方法 その2 : Processing Tips    (←個人的には簡単じゃない気がする)
-https://note.com/deconbatch/n/nadd699e04580
+ぼんやり光る効果を出す簡単な方法 その2 : Processing Tips <br>
+https://note.com/deconbatch/n/nadd699e04580 <br><br>
+
+加算とスクリーンを正しく使い分けて綺麗な光を描くヒント(photoshop) ← オススメ！！
+http://compojigoku.blog.fc2.com/blog-entry-7.html
 
 
 
