@@ -5,6 +5,11 @@ blendMode(SCREEN) を使う。(その後に描画される図形は重なった�
 blendMode(ADD)は色が重なって白くなってします。<br>
 
 
+## まずはblendMode()の違いを把握
+参考リンク<br>
+http://aa-deb.hatenablog.com/entry/2016/11/03/181953
+
+
 
 
 
