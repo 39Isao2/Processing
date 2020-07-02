@@ -1,6 +1,6 @@
 # 発光の表現
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/particle.png" width="300px"
+<img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/particle.png" width="300px">
 
 
 '''
