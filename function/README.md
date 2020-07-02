@@ -145,7 +145,8 @@ void keyPressed(){
 float banana;
 
 void setup(){
-  bananaP = 150;
+  // バナナの値段
+  banana = 150;
 }
 
 void draw(){
