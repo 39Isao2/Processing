@@ -132,3 +132,38 @@ void keyPressed(){
 }
 
 ```
+
+
+# 引数とreturnについて
+
+今までの関数はvoid（戻り値がない）もののみでしたが、
+引数やreturnを使うと、関数の中で値の変換や返却ができます。  
+<br>
+
+```
+
+float banana;
+
+void setup(){
+  bananaP = 150;
+}
+
+void draw(){
+  float price = calc(banana);
+  println(price);
+}
+
+// 今まではvoid だったけど返却する(returnする型)を書く
+float calc(float banana){
+  bananaPrice = banana * 1.10;
+  return bananaPrice;
+}
+
+
+/*float calc(float price){
+  price = price * 1.10;
+  return price;
+}
+*/
+
+```
