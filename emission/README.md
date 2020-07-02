@@ -135,32 +135,3 @@ translate(width/2, height/2);
 }
 
 ```
-
-# step3 もっと発光
-
-int radius;
-
-void setup(){
-  size(600,600);
-  radius = 200;
-  //blendMode(BLEND);  // (初期値)
-  blendMode(SCREEN);
-  noFill();
-  colorMode(HSB,360,100,100,100);
-}
-
-void draw(){
-
-background(0);
-translate(width/2, height/2);
-
- for (int i = 1; i < 50; ++i) {
-   strokeWeight(i);
-   //stroke( map(i, 1, 50, 180, 360) , 80 , map(i, 1, 50, 15, 1),100);
-   
-   // 緑バージョン
-   //stroke(map(i, 1, 50, 90, 180), 100 , map(i, 1, 50, 30, 1), 100);
-   ellipse(0, 0, radius,radius);
- }
-
-}
