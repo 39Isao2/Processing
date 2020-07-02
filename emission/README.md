@@ -30,6 +30,7 @@ http://compojigoku.blog.fc2.com/blog-entry-7.html
 ## 発光step1 
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/img1.png" width="300px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/ring.png" width="300px">
 
 ```
 
