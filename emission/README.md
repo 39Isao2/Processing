@@ -10,7 +10,7 @@ http://aa-deb.hatenablog.com/entry/2016/11/03/181953 <br><br>
 ぼんやり光る効果を出す簡単な方法 その2 : Processing Tips <br>
 https://note.com/deconbatch/n/nadd699e04580 <br><br>
 
-加算とスクリーンを正しく使い分けて綺麗な光を描くヒント(photoshop) ← オススメ！！<br>
+加算とスクリーンを正しく使い分けて綺麗な光を描くヒント(photoshop) ← グラスの曲線見るのオススメ！！<br>
 http://compojigoku.blog.fc2.com/blog-entry-7.html
 
 
@@ -67,6 +67,8 @@ void draw(){
 ## step2 
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/img2.png" width="300px">
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/ring2.png" width="300px">
 
 ```
 
