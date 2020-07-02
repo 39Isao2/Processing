@@ -1,5 +1,40 @@
 # 発光の表現
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/particle.png" width="300px"
+
+
+'''
+
+void setup(){
+  size(500,500);
+  blendMode(ADD);
+}
+
+void draw(){
+  background(0);
+  translate(width/2,height/2);
+  
+  fill(0,0,255);
+  ellipse(0,0,80,80);
+  
+  fill(230);
+  ellipse(0,0,40,40);
+  
+  fill(255);
+  ellipse(0,0,20,20);
+  
+  filter(BLUR, 10);
+  
+  fill(255);
+  ellipse(0,0,18,18);
+  
+  
+}
+
+
+
+'''
+
 
 
 ## まずはblendMode()の種類を3つ把握  （初期値、ADD、SCREEN）
