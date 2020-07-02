@@ -74,7 +74,7 @@ void draw(){
 ```
 
 
-# step2 もっと発光
+# step2 ぼんやり発光
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/img2.png" width="300px">
 
@@ -107,7 +107,7 @@ translate(width/2, height/2);
 
 ```
 
-# step2 さらに発光
+# step2 くっきり発光
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/img3.png" width="300px">
 
