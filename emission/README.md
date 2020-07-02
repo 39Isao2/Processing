@@ -1,4 +1,5 @@
-発光効果、グロウ(glow)効果。
+# 発光効果、グロウ(glow)効果。
+
 電球や星、ホタルなど、それ自体が光っているような効果を出す。
 
 
@@ -36,7 +37,7 @@ blendMode() を何も指定しない場合は blendMode(BLEND)
 
 
 
-# 発光step1 
+## 発光step1 
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/img1.png" width="300px">
 
@@ -74,7 +75,7 @@ void draw(){
 ```
 
 
-# step2 
+## step2 
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/img2.png" width="300px">
 
@@ -107,7 +108,7 @@ translate(width/2, height/2);
 
 ```
 
-# step3
+## step3
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/img3.png" width="300px">
 
