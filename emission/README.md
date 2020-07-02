@@ -48,7 +48,6 @@ void draw(){
   background(0);
   translate(width/2, height/2);
   
-  // R B G アルファ  
   strokeWeight(10);
   stroke(100, 100, 100, 100);  // 緑
   ellipse(0, 0, radius, radius);
