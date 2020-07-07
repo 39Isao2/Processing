@@ -39,7 +39,8 @@ void draw(){
 
 参考:filterについて  
 https://qiita.com/umi_mori/items/5b5d0123e2ea533d49eb
-
+<br>
+<br>
 
 
 ## まずはblendMode()の種類を3つ把握  （初期値、ADD、SCREEN）
