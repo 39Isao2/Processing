@@ -26,8 +26,8 @@ float step;
 
 void setup(){
   
-    step = 0;
     size(400, 400);
+    step = 0;
     background(255);
   
     for (int x = 0; x < width; x += 3) {
