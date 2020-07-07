@@ -26,12 +26,12 @@ void setup(){
 ## サンプルコード
 
 ```
-float radius;
+float diameter;
 
 void setup(){
   size(500,500);
   noStroke();
-  radius = 0;
+  diameter = 0;
 }
 
 void draw(){
@@ -41,13 +41,13 @@ void draw(){
   float posX = mouseX;
   
   // 値の調整 本来０〜500のところを0~100に変換！
-  radius = map(posX, 0, 500, 0, 100);
-  //println(radius);
+  diameter = map(posX, 0, 500, 0, 100);
+  //println(diameter);
   
   
     // 緑色
   fill(0,255,0);
-  ellipse(width/2, height/2, radius, radius);
+  ellipse(width/2, height/2, diameter, diameter);
 }
 
 ```
