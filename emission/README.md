@@ -142,6 +142,37 @@ translate(width/2, height/2);
 
 ## step3
 
+```
+
+int radius;
+
+void setup(){
+  size(600,600);
+  radius = 200;
+  //blendMode(BLEND);  // (初期値)
+  blendMode(SCREEN);
+  noFill();
+  colorMode(HSB,360,100,100,100);
+}
+
+void draw(){
+  
+   background(0);
+   translate(width/2, height/2);
+
+   // 緑バージョン
+   for (int i = 1; i < 25; i++) {
+     strokeWeight(i*2);
+     stroke(map(i, 1, 25, 70, 150), 100,  25-i,  100);
+     ellipse(0, 0, radius,radius);
+   }
+
+}
+
+```
+
+## 記事のサンプル
+
 <img src="https://github.com/55Kaerukun/Processing/blob/master/emission/images/img3.png" width="300px">
 
 
