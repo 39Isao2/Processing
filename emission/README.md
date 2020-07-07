@@ -176,4 +176,6 @@ translate(width/2, height/2);
 
 ```
 
-色相環（hue circle） : https://www.petitmonte.com/javascript/color_wheel.html
+色相環（hue circle） : https://www.petitmonte.com/javascript/color_wheel.html <br>
+
+HSB変換ツール: https://www.peko-step.com/tool/hsvrgb.html
