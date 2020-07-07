@@ -74,7 +74,7 @@ http://compojigoku.blog.fc2.com/blog-entry-7.html
 
 ```
 
-int radius;
+int diameter;
 
 void setup(){
   size(600,600);
@@ -91,15 +91,15 @@ void draw(){
   
   strokeWeight(10);
   stroke(100, 100, 100, 100);  // 緑
-  ellipse(0, 0, radius, radius);
+  ellipse(0, 0, diameter, diameter);
   
   strokeWeight(25); // 線を太くする
   stroke(100, 100,  50, 100); // 薄い緑
-  ellipse(0, 0, radius, radius);
+  ellipse(0, 0, diameter, diameter);
   
   strokeWeight(50); // 線をもっと太くする
   stroke(100, 100,  20, 100); // もっと薄い緑
-  ellipse(0, 0, radius, radius);
+  ellipse(0, 0, diameter, diameter);
 }
 
 ```
@@ -113,7 +113,7 @@ void draw(){
 
 ```
 
-int radius;
+int diameter;
 
 void setup(){
   size(600,600);
@@ -132,7 +132,7 @@ translate(width/2, height/2);
  for (int i = 0; i < 25; i++) {
    strokeWeight(i * 2); // 0*2 1*2 3*2 とだんだん太さを足しいる
    stroke(100, 100, 25 - i, 100); // 25-0 25-1 25-2 とだんだん色を薄くしてグラデーションを表現
-   ellipse(0, 0, radius, radius);
+   ellipse(0, 0, diameter, diameter);
  }
 
 }
@@ -144,11 +144,11 @@ translate(width/2, height/2);
 
 ```
 
-int radius;
+int diameter;
 
 void setup(){
   size(600,600);
-  radius = 200;
+  diameter = 200;
   //blendMode(BLEND);  // (初期値)
   blendMode(SCREEN);
   noFill();
@@ -164,7 +164,7 @@ void draw(){
    for (int i = 0; i < 25; i++) {
      strokeWeight(i*2);
      stroke(map(i, 0, 25, 70, 150), 100,  25-i,  100);
-     ellipse(0, 0, radius,radius);
+     ellipse(0, 0, diameter,diameter);
    }
 
 }
@@ -178,7 +178,7 @@ void draw(){
 
 ```
 
-int radius;
+int diameter;
 
 void setup(){
   size(600,600);
@@ -200,7 +200,7 @@ translate(width/2, height/2);
    
    // 緑バージョン
    stroke(map(i, 1, 50, 90, 150), 80 , map(i, 1, 50, 15, 1), 100);
-   ellipse(0, 0, radius,radius);
+   ellipse(0, 0, diameter,diameter);
  }
 
 }
