@@ -161,9 +161,9 @@ void draw(){
    translate(width/2, height/2);
 
    // 緑バージョン
-   for (int i = 1; i < 25; i++) {
+   for (int i = 0; i < 25; i++) {
      strokeWeight(i*2);
-     stroke(map(i, 1, 25, 70, 150), 100,  25-i,  100);
+     stroke(map(i, 0, 25, 70, 150), 100,  25-i,  100);
      ellipse(0, 0, radius,radius);
    }
 
