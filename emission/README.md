@@ -10,7 +10,8 @@
 
 void setup(){
   size(500,500);
-  blendMode(ADD);
+  blendMode(BLEND);
+  noStroke();
 }
 
 void draw(){
@@ -20,7 +21,7 @@ void draw(){
   fill(0,0,255);
   ellipse(0,0,80,80);
   
-  fill(230);
+  fill(230,230,230);
   ellipse(0,0,40,40);
   
   fill(255);
