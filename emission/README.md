@@ -163,7 +163,7 @@ void draw(){
 background(0);
 translate(width/2, height/2);
 
- for (int i = 1; i < 50; ++i) {
+ for (int i = 1; i < 50; i++) {
    strokeWeight(i);
    stroke( map(i, 1, 50, 180, 360) , 100 , map(i, 1, 50, 15, 1),100);
    
