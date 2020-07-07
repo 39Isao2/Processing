@@ -3,7 +3,7 @@
 ### 値の調整に使う。Arduionoなどのデバイスでもよく使用する。
 
 ```
-// map(num, a, b, c, d) numを範囲a-bから別の範囲c-dへ変換する
+// map(num, a, b, c, d) numを範囲a-bから別の範囲c-dへ変換する（マッピング）
 
 
 float num;
