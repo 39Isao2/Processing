@@ -130,7 +130,7 @@ background(0);
 translate(width/2, height/2);
 
  for (int i = 0; i < 25; ++i) {
-   strokeWeight(i * 2); // 0*25 1*25 2*25 とだんだん太さを足しいる
+   strokeWeight(i * 2); // 0*2 1*2 3*2 とだんだん太さを足しいる
    stroke(100, 100, 25 - i, 100); // 25-0 25-1 25-2 とだんだん色を薄くしてグラデーションを表現
    ellipse(0, 0, radius, radius);
  }
