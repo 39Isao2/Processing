@@ -107,7 +107,7 @@ void draw(){
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="400px"> 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="600px"> 
 
 ## カラフルver
 
@@ -159,7 +159,7 @@ void draw(){
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p2.png" width="400px"> 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p2.png" width="600px"> 
 
 
 
