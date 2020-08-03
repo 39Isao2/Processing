@@ -52,10 +52,15 @@ void draw(){
 ```
 
 <br>
+
 イージングの公式（別 ver）<br>
+
 ```
+
 // 現在の値 += (目標値 - 現在の値) * イージング係数
 nowValue += (tagetValue - nowValue) * 0.05;
+
 ```
+
 <br>
 
