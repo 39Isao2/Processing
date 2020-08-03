@@ -52,6 +52,10 @@ void draw(){
 ```
 
 <br>
-イージングの公式（簡略版） https://qiita.com/39_isao/items/67cf63a6f802ac2f2a9b
+イージングの公式（別 ver）<br>
+```
+// 現在の値 += (目標値 - 現在の値) * イージング係数
+nowValue += (tagetValue - nowValue) * 0.05;
+```
 <br>
 
