@@ -29,7 +29,7 @@ void draw() {
 }
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/3dbox.png" width="600px"> 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/3dbox.png" width="400px"> 
 
 ## sphereの表示
 
