@@ -104,9 +104,10 @@ void draw(){
     }  
   }
 }
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="400px"> 
 
 ```
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="400px"> 
 
 ## カラフルver
 
