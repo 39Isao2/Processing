@@ -151,20 +151,13 @@ void setup(){
 
 void draw(){
   float price = calc(banana);
-  println(price);
 }
 
 // 今まではvoid だったけど返却する(returnする型)を書く
 float calc(float banana){
-  bananaPrice = banana * 1.10;
-  return bananaPrice;
+  banana = banana * 1.10;
+  return banana;
 }
 
-
-/*float calc(float price){
-  price = price * 1.10;
-  return price;
-}
-*/
 
 ```
