@@ -61,7 +61,7 @@ void draw() {
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sphere2.png" width="400px"> 
 
-## 大量のパーティクル
+## z軸を使用したパーティクル
 
 ```
 
@@ -104,11 +104,61 @@ void draw(){
     }  
   }
 }
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="400px"> 
+
+```
+
+## カラフルver
+
+```
+int num = 100;
+float[] x = new float[num]; //100個保存できる棚（配列）
+float[] y = new float[num];
+float[] z = new float[num];
+float[] col = new float[num];
+
+void setup(){
+  size(1000,1000,P3D);
+  colorMode(HSB,360,100,100,100);
+  
+  ////0から100まで1ずつ増えるループ
+  for(int i=0; i<num; i+=1){
+    x[i] = random(width);
+    y[i] = random(height);
+    z[i] = random(-1000,0); //-1が奥、+が手前
+    col[i] = random(360);
+  } 
+  
+}
+
+
+void draw(){
+  background(0);
+  strokeWeight(4);
+  
+  for(int i=0; i<num; i+=1){
+    
+    stroke(col[i],100,100,100); //線の色
+      
+    // 点
+    point(x[i], y[i],z[i]);
+    
+    z[i] = z[i] + 20; //20ずつ手前に移動
+    
+    
+    //z座標が0以上になったらランダムで再配置
+    if(z[i] > 100){
+      x[i] = random(width);
+      y[i] = random(height);
+      z[i] = -1000; 
+    }  
+  }
+}
 
 
 ```
 
-
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p2.png" width="400px"> 
 
 
 
