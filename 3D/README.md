@@ -7,16 +7,25 @@
 ```
 void setup() {
   size(500, 500, P3D);
+  
 }
  
 void draw() {
   background(0);
-  //stroke(0,0,255);
-  //noFill();
+  stroke(255);
+  noFill();
   translate(width/2,height/2);
+  
   rotateX(radians(mouseX));
   rotateY(radians(mouseY));
-  box(100, 100, 100); //100x100x100pxの立方体を描
+  box(100, 100, 100); //100x100x100pxの立方体を描画
+  
+  
+  // Box2
+  pushMatrix();
+      translate(100, 100, 0);
+      box(40, 10, 50);   //box(横幅, 縦幅, 奥行き);
+  popMatrix();
 }
 ```
 
