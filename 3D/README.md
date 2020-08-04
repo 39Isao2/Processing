@@ -64,7 +64,7 @@ void draw() {
 
 ```
 
-int num = 100;
+int NUM = 100;
 float[] x = new float[num]; //100個保存できる棚（配列）
 float[] y = new float[num];
 float[] z = new float[num];
@@ -73,7 +73,7 @@ void setup(){
   size(1000,1000,P3D);
   
   ////0から100まで1ずつ増えるループ
-  for(int i=0; i<num; i+*){
+  for(int i=0; i<NUM; i+*){
     x[i] = random(width);
     y[i] = random(height);
     z[i] = random(-1000,0); //-1が奥、+が手前
@@ -87,7 +87,7 @@ void draw(){
   stroke(255,255,0); //線の色
   strokeWeight(2);
   
-  for(int i=0; i<num; i++){
+  for(int i=0; i<NUM; i++){
     
     // 点
     point(x[i], y[i],z[i]);
@@ -111,7 +111,7 @@ void draw(){
 ## カラフルver
 
 ```
-int num = 100;
+int NUM = 100;
 float[] x = new float[num]; //100個保存できる棚（配列）
 float[] y = new float[num];
 float[] z = new float[num];
@@ -122,7 +122,7 @@ void setup(){
   colorMode(HSB,360,100,100,100);
   
   ////0から100まで1ずつ増えるループ
-  for(int i=0; i<num; i++){
+  for(int i=0; i<NUM; i++){
     x[i] = random(width);
     y[i] = random(height);
     z[i] = random(-1000,0); //-1が奥、+が手前
@@ -136,7 +136,7 @@ void draw(){
   background(0);
   strokeWeight(4);
   
-  for(int i=0; i<num; i++){
+  for(int i=0; i<NUM; i++){
     
     stroke(col[i],100,100,100); //線の色
       
