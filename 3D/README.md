@@ -65,9 +65,9 @@ void draw() {
 ```
 
 int NUM = 100;
-float[] x = new float[num]; //100個保存できる棚（配列）
-float[] y = new float[num];
-float[] z = new float[num];
+float[] x = new float[NUM]; //100個保存できる棚（配列）
+float[] y = new float[NUM];
+float[] z = new float[NUM];
 
 void setup(){
   size(1000,1000,P3D);
@@ -112,10 +112,10 @@ void draw(){
 
 ```
 int NUM = 100;
-float[] x = new float[num]; //100個保存できる棚（配列）
-float[] y = new float[num];
-float[] z = new float[num];
-float[] col = new float[num];
+float[] x = new float[NUM]; //100個保存できる棚（配列）
+float[] y = new float[NUM];
+float[] z = new float[NUM];
+float[] col = new float[NUM];
 
 void setup(){
   size(1000,1000,P3D);
