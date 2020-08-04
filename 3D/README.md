@@ -74,7 +74,7 @@ void setup(){
   size(1000,1000,P3D);
   
   ////0から100まで1ずつ増えるループ
-  for(int i=0; i<num; i+=1){
+  for(int i=0; i<num; i+*){
     x[i] = random(width);
     y[i] = random(height);
     z[i] = random(-1000,0); //-1が奥、+が手前
@@ -88,7 +88,7 @@ void draw(){
   stroke(255,255,0); //線の色
   strokeWeight(2);
   
-  for(int i=0; i<num; i+=1){
+  for(int i=0; i<num; i++){
     
     // 点
     point(x[i], y[i],z[i]);
@@ -123,7 +123,7 @@ void setup(){
   colorMode(HSB,360,100,100,100);
   
   ////0から100まで1ずつ増えるループ
-  for(int i=0; i<num; i+=1){
+  for(int i=0; i<num; i++){
     x[i] = random(width);
     y[i] = random(height);
     z[i] = random(-1000,0); //-1が奥、+が手前
@@ -137,7 +137,7 @@ void draw(){
   background(0);
   strokeWeight(4);
   
-  for(int i=0; i<num; i+=1){
+  for(int i=0; i<num; i++){
     
     stroke(col[i],100,100,100); //線の色
       
