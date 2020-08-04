@@ -73,7 +73,7 @@ void setup(){
   size(1000,1000,P3D);
   
   ////0から100まで1ずつ増えるループ
-  for(int i=0; i<NUM; i+*){
+  for(int i=0; i<NUM; i++){
     x[i] = random(width);
     y[i] = random(height);
     z[i] = random(-1000,0); //-1が奥、+が手前
