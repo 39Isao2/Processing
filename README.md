@@ -4,7 +4,7 @@
 <img src="https://github.com/55Kaerukun/Processing/raw/master/images/download.png" width="150px">
 <br>
 
-## 資料目次(随時アップデート中)
+## 資料目次
 * [インタラクティブデザイン概論](https://github.com/55Kaerukun/Processing/blob/master/introduction/README.md)
 * [図形描画](https://github.com/55Kaerukun/Processing/blob/master/sketch/README.md)
 * [変数](https://github.com/55Kaerukun/Processing/blob/master/var/README.md)
