@@ -1,7 +1,9 @@
 
 
 ## まずは色々な図形を覚えて絵を描けるようになりましょう。
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/drra.png" width="600px">
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/drra.png" width="700px">
+<br>
 
 
 # 基本的なスケッチ
