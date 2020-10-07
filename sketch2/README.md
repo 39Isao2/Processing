@@ -145,8 +145,6 @@ https://htsuda.net/archives/1266
 
 
 ```
-/* ひし形 */
-
 
 // 背景白色に
 background(255);
@@ -154,8 +152,7 @@ background(255);
 // 黄色
 fill(0,255,255);
 
-
-// 　ひし形
+// ひし形
 beginShape();
   vertex(30, 100);
   vertex(200, 100);
