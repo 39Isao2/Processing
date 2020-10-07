@@ -95,6 +95,9 @@ fill(255,0,0);
 
 <img src="https://github.com/55Kaerukun/Processing2/blob/master/images/colors.png" width="has 600px">
 
+色見本 <br>
+https://www.peko-step.com/tool/tfcolor.html  <br>
+
 ### 線幅の変更
 strokeWeight(線幅);
 ```
