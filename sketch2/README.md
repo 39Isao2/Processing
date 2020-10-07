@@ -143,5 +143,27 @@ https://gist.github.com/55Kaerukun/edeb00bc9c9d0a1ab6d65b6c48bbf549
 ### 複雑な形 : beginShape, endShape, vertex
 https://htsuda.net/archives/1266
 
+
+```
+/* ひし形 */
+
+
+// 背景白色に
+background(255);
+
+// 黄色
+fill(0,255,255);
+
+
+// 　ひし形
+beginShape();
+  vertex(30, 100);
+  vertex(200, 100);
+  vertex(270, 200);
+  vertex(100, 200);
+endShape(CLOSE);
+
+```
+
 ### ベジェ曲線
 https://cc.musabi.ac.jp/kenkyu/cf/renew/program/processing/processing06.html
