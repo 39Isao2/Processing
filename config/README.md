@@ -19,5 +19,5 @@
 ### コーディングに向いてるフリーフォントです。よければお使いください
 ・コーディングに最適な日本語対応の等幅フォントSource Han Code JPとは<br><br>
 https://ics.media/entry/7010/ <br><br>
-https://github.com/adobe-fonts/source-han-code-jp/releases <br><br>
+https://github.com/adobe-fonts/source-han-code-jp/releases/tag/1.004R <br><br>
 
