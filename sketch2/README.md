@@ -127,32 +127,6 @@ arc(250,250, 300, 100, radians(0), radians(180), PIE);
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/yellowface.pmg" width="500px">
 
-```
-
-// 設定
-size(500,500);
-background(255);
-// 線幅変更(アメコミ風？)
-strokeWeight(10); 
-
-// 顔
-fill(255,255,0);
-ellipse(250,250,450,450);
-
-// 目
-fill(0);
-ellipse(250-100,150,40,50);
-ellipse(250+100,150,40,50);
-
-// 鼻
-rect(250,250,10,10);
-
-
-//　口
-fill(255,0,0);
-arc(250, 300, 250, 250, radians(0), radians(180), PIE);
-
-```
 
 <br>
 チャレンジ2 カエルを描いてみよう！
