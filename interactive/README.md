@@ -31,6 +31,29 @@ fill(random(255),random(255),random(255));
 ```
 
 
+```
+
+void setup(){
+  size(500,500);
+  background(255);
+}
+
+void draw(){
+  //background(255);
+  fill(random(255),random(255),random(255));
+  ellipse(mouseX, mouseY, 40,40);
+  //ellipse(mouseX, mouseY, random(10,20),random(10,20));
+}
+
+// キーを押した時
+void keyPressed() {
+  // 白にする
+  background(random(255),random(255),random(255));
+}
+
+```
+
+
 <br>
 <br>
 
@@ -81,7 +104,7 @@ posX = posX + 1;
 
 ```
 // ここで宣言
-float posX;
+int posX;
 
 void setup(){
   size(500,500);
@@ -104,6 +127,16 @@ void draw(){
 ### if文で、画面右までに行ったら左に戻る
 
 ```
+
+// ここで宣言
+int posX;
+
+void setup(){
+  size(500,500);
+  posX = 0;
+}
+
+
 void draw(){
   // 白で再度塗りつぶす
   background(255,255,255);
