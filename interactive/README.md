@@ -48,7 +48,7 @@ void draw(){
 // キーを押した時
 void keyPressed() {
   // 白にする
-  background(random(255),random(255),random(255));
+  background(255,255,255);
 }
 
 ```
