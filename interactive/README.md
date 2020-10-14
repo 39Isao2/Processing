@@ -23,11 +23,11 @@ ellipse(mouseX,mouseY,100, 100);
 ```
 
 ### 乱数の生成
-random(255); 0以上、255未満の数<br>
+random(256); 0以上、256未満の数　（0~255のいずれか）<br>
 random(30,100); 30以上、100未満の数
 ```
 // 例
-fill(random(255),random(255),random(255));
+fill(random(256),random(256),random(256));
 ```
 
 
@@ -40,7 +40,7 @@ void setup(){
 
 void draw(){
   //background(255);
-  fill(random(255),random(255),random(255));
+  fill(random(256),random(256),random(256));
   ellipse(mouseX, mouseY, 40,40);
   //ellipse(mouseX, mouseY, random(10,20),random(10,20));
 }
