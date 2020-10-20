@@ -6,6 +6,7 @@
 ```
 
 // x座標
+// x座標
 int posX;
 
 void setup(){
@@ -17,15 +18,15 @@ void setup(){
 void draw(){
   
   // 透明な四角を上から塗りつぶす
-  fill(0,0,0,10);
+  fill(0,0,0,20);
   rect(0, 0, width, height);
 
   // 円の描画
   fill(0,0,255);
-  ellipse(posX, height/2, 100, 100);
+  ellipse(posX, height/2, 50, 50);
   
   // 座標の更新
-  posX = posX+3;
+  posX = posX+8;
   
   // 一番左に戻す
   if(posX > width){
