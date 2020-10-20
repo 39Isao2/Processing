@@ -6,7 +6,6 @@
 ```
 
 // x座標
-// x座標
 int posX;
 
 void setup(){
