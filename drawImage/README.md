@@ -17,7 +17,7 @@ void setup(){
   size(500,500);
   background(255);
   // 変数hiyoko に画像データを読み込む
-  hiyokoImage = loadImage("hiyoko.jpg");
+  hiyokoImage = loadImage("hiyoko.png");
 }
 
 void draw(){
