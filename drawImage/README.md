@@ -87,10 +87,28 @@ void draw(){
 
 
 
-
-
 参考サイト <br>
 https://yoppa.org/proga10/1353.html
+
+
+
+## color型について
+指定した場所の色を取得するには、で可能だが、それぞれのrgbの値の確認が少し面倒。
+``
+// ↑上のソースだと
+
+color col = img.get(x,y);
+float r = red(col);
+float g = red(col);
+float b = red(col);
+println(r);
+```
+
+
+    
+
+
+
 
 # 音の使い方
 
