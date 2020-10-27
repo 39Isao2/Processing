@@ -43,7 +43,44 @@ image(hiyokoImage, 100, 100);
 ```
 // 位置とサイズを指定して画像を表示
 image(hiyokoImage, 100, 100, width/2, height/2)); <br>
+
 ```
+
+
+## ピクセレイト
+
+```
+PImage img;
+
+void setup(){
+  size(750,1053);
+  img = loadImage("image.jpg");
+  background(0);
+  noStroke();
+}
+
+void draw(){
+  
+  for(int i = 0; i<10; i++){
+    // 色を取得する位置をランダムに決定
+    int x = (int)random(width);
+    int y = (int)random(height);
+    
+    // 指定した場所の色を取得
+    color col = img.get(x,y);
+    fill(col,127);
+    
+    //色の明度を求めるには、brightness(色)
+    float size = brightness(col) /8.0;
+    
+    ellipse(x,y,size,size);
+  }
+}
+
+```
+
+
+
 
 
 参考サイト <br>
