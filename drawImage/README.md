@@ -45,12 +45,6 @@ image(hiyokoImage, 100, 100);
 image(hiyokoImage, 100, 100, width/2, height/2)); <br>
 ```
 
-透明度を変更
-```
-// 位置とサイズを指定して画像を表示
-tint(255,255,255,100);
-```
-
 
 参考サイト <br>
 https://yoppa.org/proga10/1353.html
