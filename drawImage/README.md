@@ -49,6 +49,12 @@ image(hiyokoImage, 100, 100, width/2, height/2)); <br>
 
 ## ピクセレイト
 
+<br>
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/pixcelate.png" width="800px">
+<br>
+
+
+
 ```
 PImage img;
 
