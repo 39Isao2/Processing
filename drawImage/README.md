@@ -17,7 +17,7 @@ void setup(){
   size(500,500);
   background(255);
   // 変数hiyoko に画像データを読み込む
-  hiyokoImage = loadImage("hiyoko.jpg");
+  hiyokoImage = loadImage("hiyoko.png");
 }
 
 void draw(){
@@ -34,6 +34,26 @@ void draw(){
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/drawImage.png" width="">
 <br>
 
+画像を表示 <br>
+```
+// 変数名、x座標、y座標 
+image(hiyokoImage, 100, 100); 
+```
+
+```
+// 位置とサイズを指定して画像を表示
+image(hiyokoImage, 100, 100, width/2, height/2)); <br>
+```
+
+透明度を変更
+```
+// 位置とサイズを指定して画像を表示
+tint(255,255,255,100);
+```
+
+
+参考サイト <br>
+https://yoppa.org/proga10/1353.html
 
 # 音の使い方
 
