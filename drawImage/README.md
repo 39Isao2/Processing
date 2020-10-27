@@ -83,6 +83,10 @@ void draw(){
   }
 }
 
+void mousePressed() {
+	noLoop();			// ボタンを押すと停止
+}
+
 ```
 
 
