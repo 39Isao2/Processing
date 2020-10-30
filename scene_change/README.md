@@ -64,16 +64,24 @@ void keyPressed(){
 
 
 ```
-// 音ライブラリを使う宣言
-import processing.sound.*;
+import ddf.minim.*;
+import ddf.minim.analysis.*;
+import ddf.minim.effects.*;
+import ddf.minim.signals.*;
+import ddf.minim.spi.*;
+import ddf.minim.ugens.*;
 
-// シーンを管理する変数
+// minim使用する状態を設定
+Minim minim = new Minim(this);
+
+// //サウンドデータ格納用の変数
+AudioPlayer se1;
+AudioPlayer se2;
+AudioPlayer se3;
+
+// シーン管理の変数
 int scene;
 
-// SoundFile型変数を定義
-SoundFile music1;
-SoundFile music2;
-SoundFile music3;
 
 void setup( ) {
     size(600,600);
@@ -85,12 +93,12 @@ void setup( ) {
     strokeWeight(3);
     
     // 最初のシーン
-    scene = 1;
+    scene = 0;
     
-    // 音読み込み
-    music1 = new SoundFile(this,"soudfile1.mp3");
-    music2 = new SoundFile(this,"soudfile2.mp3");
-    music3 = new SoundFile(this,"soudfile3.mp3");
+    // 音楽データの読み込み
+    se1 = minim.loadFile("se5.mp3");
+    se2 = minim.loadFile("se6.mp3");
+    se3 = minim.loadFile("se7.mp3");
 }
 
 void draw() {
@@ -119,15 +127,18 @@ void keyPressed(){
     if(key == 'a'){
     // aを押したら      
       scene = 1; // シーンを1に変更  
-      music1.play();
+      se1.play();
+      se1.rewind();
     } else if(key == 's'){
     // sを押したら
       scene = 2; // シーンを2に変更
-      music2.play();
+      se2.play();
+      se2.rewind();
     } else if(key == 'd'){
     // dを押したら
       scene = 3; // シーンを3に変更
-      music3.play();
+      se3.play();
+      se3.rewind();
     }
 }
 ```
