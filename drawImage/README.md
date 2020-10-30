@@ -117,8 +117,8 @@ println(r);
 
 # 音の使い方
 
-processingメニュー＞スケッチ＞ライブラリーを追加＞soundで検索  
-出てきたら、soundを選択＞インストール。  
+processingメニュー＞スケッチ＞ライブラリーを追加＞Minimで検索  
+出てきたら、Minimを選択＞インストール。  
 <br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sound.png" width="500px">
 <br>
