@@ -120,7 +120,7 @@ println(r);
 processingメニュー＞スケッチ＞ライブラリーを追加＞Minimで検索  
 出てきたら、Minimを選択＞インストール。  
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sound.png" width="500px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sound2.png" width="500px">
 <br>
 
 画像のようにpdeファイルと同階層に「data」フォルダを作成し、  
