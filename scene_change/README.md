@@ -3,6 +3,8 @@
 
 キーボードの入力と関数を利用して、シーンを切り替える<br>
 
+<img src="https://raw.githubusercontent.com/55Kaerukun/Processing/master/images/change.png" width="600px">
+
 ```
 
 // シーンを管理する変数
