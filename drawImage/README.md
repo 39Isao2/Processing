@@ -42,7 +42,7 @@ image(hiyokoImage, 100, 100);
 
 ```
 // 位置とサイズを指定して画像を表示
-image(hiyokoImage, 100, 100, width/2, height/2)); <br>
+image(hiyokoImage, 100, 100, width/2, height/2));
 
 ```
 
@@ -84,7 +84,7 @@ void draw(){
 }
 
 void mousePressed() {
-	noLoop();			// ボタンを押すと停止
+    noLoop();			// ボタンを押すと停止
 }
 
 ```
