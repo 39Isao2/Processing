@@ -129,26 +129,47 @@ processingメニュー＞スケッチ＞ライブラリーを追加＞Minimで�
 サンプルコード  
 ```
 
-// 音ライブラリを使う宣言
-import processing.sound.*;
+// スケッチ→ライブラリをインポート → minimを選択すると自動で書かれる
 
-// SoundFile型変数を定義
-SoundFile music;
+import ddf.minim.*;
+import ddf.minim.analysis.*;
+import ddf.minim.effects.*;
+import ddf.minim.signals.*;
+import ddf.minim.spi.*;
+import ddf.minim.ugens.*;
+
+// minim使用する状態を設定
+Minim minim = new Minim(this);
+
+// //サウンドデータ格納用の変数
+AudioPlayer bgm;
+AudioPlayer se1;
+AudioPlayer se2;
 
 void setup(){
-  // 音データ読み込み
-  music = new SoundFile(this,"soudfile.mp3");
+  size(500, 500);
+  // 音楽データの読み込み
+  bgm = minim.loadFile("bgm.mp3");
+  se1 = minim.loadFile("se1.mp3");
+  se2 = minim.loadFile("se2.mp3");
 }
 
 void draw(){
- //注意！drawの中でplay()させると基本的には再生され続けてします。（1秒間に60回play()が発動してるから）
+  // 自動再生
+  player.play();
+}
+
+// キーを押された時
+void keyPressed(){
+  if(key=='a'){
+    se1.play();
+    se1.rewind();  //再生が終わったら巻き戻しておく
+  }
   
+  if(key=='s'){
+    se2.play();
+    se2.rewind();
+  }
 }
-
-void mousePressed(){
-  // マウスを押すと音が鳴る
-  music.play();
-}
-
 
 ```
