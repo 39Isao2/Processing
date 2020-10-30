@@ -18,7 +18,7 @@ void setup( ) {
     strokeWeight(3);
     
     // 最初のシーン
-    scene = 1;
+    scene = ;
 }
 
 
