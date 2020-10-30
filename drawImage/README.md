@@ -156,7 +156,7 @@ void setup(){
 
 void draw(){
   // 自動再生
-  player.play();
+  bgm.play();
 }
 
 // キーを押された時
