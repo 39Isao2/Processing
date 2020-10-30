@@ -84,7 +84,11 @@ void draw(){
 }
 
 void mousePressed() {
-    noLoop();			// ボタンを押すと停止
+    noLoop();  // ボタンを押すと停止
+}
+
+void keyPressed(){
+    loop();   // 再度draw()が始まる
 }
 
 ```
