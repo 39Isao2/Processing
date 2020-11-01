@@ -20,7 +20,7 @@ void setup( ) {
     strokeWeight(3);
     
     // 最初のシーン
-    scene = ;
+    scene = 0;
 }
 
 
