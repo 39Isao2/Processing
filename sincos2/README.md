@@ -13,6 +13,8 @@
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin.png" width="500px">
 <br>
 <br>
+PVなどにも使われてます。<br>
+https://www.youtube.com/watch?v=Ga17MGaytbk
 
 
 <br>
@@ -61,32 +63,24 @@ int theta;  //角度
 void setup() {
   size(500, 500);  
   noStroke();
-  fill(0,255,0);
+  fill(255);
   radius = 200;
   theta = 0;
-  background(0);
+  background(233,178,27);
 }
  
 void draw() {
  
-  //background(0);
   translate(width/2,height/2);
   
-
-  // 円を描く
+  // 円を描く (落ちついて)
   posX = radius * cos(radians(theta));
   posY = radius * sin(radians(theta));
   ellipse(posX, posY, 10,10);
   
-
+  // 角度更新
   theta++;
   
-  //もしthetaが360以上になったら0にする。
-  if (theta >= 360){
-    theta = 0;
-  }
-  
-
 }
 
 ```
@@ -98,7 +92,7 @@ void draw() {
 
 ## サイン波形を書いてみよう。
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sin1.png" width="800px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/bgsin.png" width="500px">
 <br>
 
 
@@ -176,11 +170,14 @@ void setup() {
   scale = 300;
   theta = 0;
   radius = 0;
+  noStroke();
+  fill(255);
+  background(233,178,27);
 }
 
 void draw() {
 
-  background(0);
+  background(233,178,27);
   
   // 起点を中心に
   translate(width/2, height/2);
@@ -191,6 +188,7 @@ void draw() {
   // 円を描画
   ellipse(0, 0, radius, radius);
   
+  // 角度更新
   theta++;
   
   if(theta > 360){
