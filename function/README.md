@@ -40,7 +40,7 @@ void drawBlueCircle(){
 # 関数を使ってコードを綺麗に書く
 
 <br>
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/face.png" width="300px">
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/yellowface.png" width="300px">
 <br>
 
 このコードを関数を使ってわかりやすいプログラムにしてみよう！
