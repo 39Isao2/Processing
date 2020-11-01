@@ -119,7 +119,7 @@ void setup(){
   posY = 0;
   speed = 2.0;
   theta = 0;
-  amplitude = 0;
+  amplitude = 200;
   background(233,178,27);
 }
 
