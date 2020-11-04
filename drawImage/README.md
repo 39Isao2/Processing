@@ -107,8 +107,8 @@ https://yoppa.org/proga10/1353.html
 
 color col = img.get(x,y);
 float r = red(col);
-float g = red(col);
-float b = red(col);
+float g = green(col);
+float b = blue(col);
 println(r);
 
 ```
