@@ -95,10 +95,6 @@ void keyPressed(){
 
 
 
-参考サイト <br>
-https://yoppa.org/proga10/1353.html
-
-
 
 ## color型について
 指定した場所の色を取得するには、で可能だが、それぞれのrgbの値の確認が少し面倒。
