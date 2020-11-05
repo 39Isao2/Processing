@@ -46,6 +46,23 @@ image(hiyokoImage, 100, 100, width/2, height/2);
 
 ```
 
+```
+//imageの起点を左じゃなくて中心にする。
+imageMode(CENTER);
+
+```
+
+```
+補足: 
+// 画像の縦横比を維持して表示
+image(
+    img, 
+    width/2, height/2, 
+    width, //横幅いっぱいの大きさにする
+    width/img.width*img.height//画像の縦横比を維持した高さにする
+  );
+
+```
 
 ## ピクセレイト
 
