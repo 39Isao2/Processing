@@ -81,6 +81,11 @@ void draw() {
   // 角度更新
   theta++;
   
+  // 360度超えたら0に戻す
+  if(theta > 360){
+    theta = 0;
+  }
+  
 }
 
 ```
@@ -153,6 +158,12 @@ void draw(){
   
   //角度を1度ずつ増やす
   theta = theta + 2;
+  
+  // 360度超えたら0に戻す
+  if(theta > 360){
+    theta = 0;
+  }
+  
 }
 
 ```
@@ -161,7 +172,7 @@ void draw(){
 
 ```
 
-int theta; // θ
+int theta; // 角度管理
 float scale; // スケール
 float radius; //半径
 
@@ -191,6 +202,7 @@ void draw() {
   // 角度更新
   theta++;
   
+  // 360度超えたら0に戻す
   if(theta > 360){
     theta = 0;
   }
