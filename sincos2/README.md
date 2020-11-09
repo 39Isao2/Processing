@@ -30,8 +30,8 @@ https://www.youtube.com/watch?v=Ga17MGaytbk
 ## 三角関数を使って円を描くときは中心を起点にするとやりやすい。
 （三角関数や3Dを扱う時によく使います。）
 <br>
+translate(起点のx座標, 起点のy座標)
 ```
-// translate(起点のx座標, 起点のy座標)
 // 中心を起点に （drawの中に記述しないといけない）
 translate(width/2, height/2
 ```
