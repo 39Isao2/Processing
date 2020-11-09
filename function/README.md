@@ -21,10 +21,8 @@ void setup(){
 }
 
 void draw(){
-
   // 関数の呼び出し
   drawBlueCircle();
-  
 }
 
 // 関数の定義
