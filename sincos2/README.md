@@ -181,7 +181,7 @@ void setup() {
   size(500,500);
   scale = 300;
   theta = 0;
-  radius = 0;
+  diameter = 0;
   noStroke();
   fill(255);
   background(233,178,27);
@@ -194,11 +194,11 @@ void draw() {
   // 起点を中心に
   translate(width/2, height/2);
   
-  // 円の半径
-  radius = sin(radians(theta)) * scale;
+  // 円の直径
+  diameter = sin(radians(theta)) * scale;
   
   // 円を描画
-  ellipse(0, 0, radius, radius);
+  ellipse(0, 0, diameter, diameter);
   
   // 角度更新
   theta++;
