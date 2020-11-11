@@ -116,7 +116,7 @@ float theta;
 float amplitude;
 
 // ellipseのサイズ
-float size;
+float diameter;
 
 void setup(){
   size(700,500);
@@ -124,6 +124,7 @@ void setup(){
   posY = 0;
   speed = 2.0;
   theta = 0;
+  diameter = 10;
   amplitude = 200;
   background(233,178,27);
 }
@@ -142,7 +143,7 @@ void draw(){
  
   //円を描画
   size +=0.5;
-  ellipse(posX,posY,size,size);
+  ellipse(posX,posY,diameter,diameter);
   
   //x座標にスピードを足す
   posY = posY + speed;
@@ -153,7 +154,7 @@ void draw(){
     background(233,178,27);
     posX = random(width);
     posY = 0;
-    size = 0;
+    diameter = 0;
   }
   
   //角度を1度ずつ増やす
