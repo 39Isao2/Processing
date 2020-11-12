@@ -100,7 +100,7 @@ void draw(){
   for(int i = 0; i<NUM; i++){
     pushMatrix();
         translate(rectPosX[i],rectPosY[i]);
-        rotate(radians(45));
+        rotate(radians(frameCount));
         fill(hue[i],100,100,100);
         rect(0, 0, 20, 20);
     popMatrix();
