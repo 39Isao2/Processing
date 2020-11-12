@@ -66,22 +66,46 @@ void draw(){
 
 ```
 
-int NUM = 720;
+int NUM = 100;
+float[] hue = new float[NUM];
+float[] rectPosX = new float[NUM];
+float[] rectPosY = new float[NUM];
 
 void setup(){
   size (500, 500);
   colorMode(HSB, 360, 100, 100, 100);
-  background(0);
+  background(255);
   noStroke();
+  rectMode(CENTER);
   
-  for (int i = 0; i < NUM; i++){
+  for(int i = 0; i<NUM; i++){
+     hue[i] = random(360);
+     rectPosX[i] = random(width);
+     rectPosY[i] = random(height);
+  }
+  
+}
+
+
+void draw(){
+  
+  background(100,0,100,100);
+  
+  for(int i = 0; i<NUM; i++){
+    fill(hue[i],100,100,100);
+    rect(rectPosX[i], rectPosY[i], 20, 20);
+  }
+  
+  // 中心点を移動して45度回転
+  for(int i = 0; i<NUM; i++){
     pushMatrix();
-    translate(random(width), random(height));
-    rotate(random(radians(180)));
-    fill(random(360), 100, 100, 100);
-    ellipse(0, 0, 10, 50);
+        translate(rectPosX[i],rectPosY[i]);
+        rotate(radians(45));
+        fill(hue[i],100,100,100);
+        rect(0, 0, 20, 20);
     popMatrix();
   }
+   
 }
 
 
