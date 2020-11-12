@@ -57,7 +57,9 @@ void setup(){
 
 
 
-## ランダムウォーク
+## ノイズウォーカー
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/randomwork.png" width="500px">
 
 ```
 
@@ -93,4 +95,4 @@ void draw(){
 }
 
 ```
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/randomwork.png" width="500px">
+
