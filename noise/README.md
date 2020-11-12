@@ -96,6 +96,45 @@ void draw(){
 
 ```
 
+## ノイズウォーカー複数ver
+
+```
+
+int NUM = 10;
+float[] stepX = new float[NUM];
+float[] stepY = new float[NUM];
+
+void setup(){
+  size(500, 500);
+  
+  background(0);
+  
+  for(int i=0; i<NUM; i++){
+      stepX[i] = random(300);
+      stepY[i] = random(300);  
+  }
+  blendMode(ADD);
+
+}
+ 
+void draw(){
+  
+  strokeWeight(1);
+  stroke(255,100);
+  
+  for(int i=0; i<NUM; i++){
+    float x = noise(stepX[i]) * width;
+    float y = noise(stepY[i]) * height;
+    point(x, y);
+    
+    stepX[i]+=0.01;
+    stepY[i]+=0.01;
+  }
+  
+}
+
+```
+
 
 ## 円の公式をノイズで曲げる
 
