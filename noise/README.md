@@ -23,6 +23,7 @@ noise();
 ```
 
 float step;
+float y;
 
 void setup(){
   
@@ -31,14 +32,18 @@ void setup(){
     background(255);
   
     for (int i = 0; i < width; i += 3) {
-   
+      
+      
+      // ランダムを使った場合は連続性がない  
+      // y = random(height);
+      
       //noise()の引数がいくつでも、必ず結果は0.0 ~ 1.0の間の値が返される
       //0.0 ~ 1.0にheightを掛けているので、結果は0.0 ~ 400.0
-      float y = noise(step) * height;  //ノイズを使ってy座標を設定
-     
+      y = noise(step) * height;  //ノイズを使ってy座標を設定
+      
+
       line(i, 0, i, y);
-      //ランダムを使った場合は連続性がない
-      //line(i, 0, i, random(height));
+      
       step += 0.1;   //ノイズの値を更新
     }
     
