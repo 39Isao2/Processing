@@ -225,3 +225,60 @@ void draw() {
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen.png" width="600px"> 
 
+
+## ノイズでアレンジ
+
+
+```
+
+int POINTS = 5000;
+int RADIUS = 500;
+float[] x = new float[POINTS];
+float[] y = new float[POINTS];
+float[] z = new float[POINTS];
+float step;
+
+void setup() {
+  size(1000, 1000, P3D);
+  
+  blendMode(ADD);
+  
+  stroke(0, 192, 255, 120);
+  strokeWeight(4);
+  
+  for(int i = 0; i<POINTS; i++){
+    // 球面上の座標をランダムで計算
+    float radianTheta = radians(random(180));
+    float radianPhi = radians(random(360));
+    x[i] = RADIUS * sin(radianTheta) * cos(radianPhi);
+    y[i] = RADIUS * sin(radianTheta) * sin(radianPhi);
+    z[i] = RADIUS * cos(radianTheta);
+    
+    x[i] = noise(step) * x[i];
+    y[i] = noise(step) * y[i];
+    z[i] = noise(step) * z[i];
+    step+=0.5;
+    
+
+  }
+  
+  step = 0;
+  
+}
+
+void draw() {
+
+  background(0);
+
+  // 中心点を移動
+  translate(width/2, height/2, 0);
+  rotateY(frameCount*0.005);
+  rotateZ(frameCount*0.005);
+  
+  for(int i = 0; i<POINTS; i++){
+    point(x[i],y[i],z[i]);  
+  }
+  
+}
+
+```
