@@ -53,6 +53,30 @@ void draw(){
 ```
 
 
+## mouseXをhueにマッピングする
+```
+
+void setup(){
+  size(500,500);
+  noStroke();
+  colorMode(HSB,360,100,100,100);
+}
+
+void draw(){
+  
+  // 白で塗り潰し
+  background(100,0,100,100);
+  
+  float hue = map(mouseX, 0, width, 0, 360);
+  
+  // 色をマウス座標で変更
+  fill(hue,100,100,100);
+  
+  ellipse(width/2, height/2, 200, 200);
+}
+
+```
+
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/map.png" width="700px">
 
 
