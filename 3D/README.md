@@ -143,6 +143,24 @@ void draw(){
     // 点
     point(x[i], y[i],z[i]);
     
+    
+    //// パーティクルの粒
+    /*
+    strokeWeight(20);
+    stroke(col[i],100,20,100); 
+    point(x[i], y[i],z[i]);
+    
+    strokeWeight(8);
+    stroke(col[i],100,60,100); 
+    point(x[i], y[i],z[i]);
+    
+    strokeWeight(4);
+    stroke(col[i],100,80,100); 
+    point(x[i], y[i],z[i]);
+    */
+    
+    
+    
     z[i] = z[i] + 20; //20ずつ手前に移動
     
     
