@@ -53,6 +53,10 @@ void draw(){
 ```
 
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/map.png" width="700px">
+
+
+
 ## mouseXをhueにマッピングする
 ```
 
@@ -76,8 +80,6 @@ void draw(){
 }
 
 ```
-
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/map.png" width="700px">
 
 
 # Arduionoでの使用例。
