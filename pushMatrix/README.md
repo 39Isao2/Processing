@@ -89,7 +89,7 @@ void setup(){
 
 void draw(){
   
-  background(100,0,100,100);
+  background(0,100,0,100);
   
   for(int i = 0; i<NUM; i++){
     fill(hue[i],100,100,100);
