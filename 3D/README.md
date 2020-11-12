@@ -282,3 +282,7 @@ void draw() {
 }
 
 ```
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/hoshikuzu.png" width="600px"> 
+
+
