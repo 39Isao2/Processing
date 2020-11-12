@@ -96,3 +96,55 @@ void draw(){
 
 ```
 
+
+## 円の公式をノイズで曲げる
+
+```
+
+float posX, posY;  //中心点のx, y座標
+float radius; // 半径
+int theta;  //角度
+float step;
+ 
+void setup() {
+  size(500, 500);  
+  noStroke();
+  fill(255);
+  radius = 300;
+  theta = 0;
+  step = 0;
+  background(0);
+  blendMode(ADD);
+}
+ 
+void draw() {
+  
+  fill(0,0,120,120);
+ 
+  translate(width/2,height/2);
+  
+  
+  // 円を描く (落ちついて)
+  posX = radius * cos(radians(theta));
+  posY = radius * sin(radians(theta));
+  
+  
+  posX = noise(step) * posX;
+  posY = noise(step) * posY;
+  
+  ellipse(posX, posY, 20,20);
+  
+
+  theta++;
+  
+  // 360度超えたら0に戻す
+  if(theta > 360){
+    theta = 0;
+  }
+
+  
+  step+=0.01;
+}
+
+```
+
