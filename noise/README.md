@@ -53,3 +53,44 @@ void setup(){
 
 ランダムだとこうなる<br>
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/random.png" width="800px">
+
+
+
+
+## ランダムウォーク
+
+```
+
+float stepX;
+float stepY;
+ 
+void setup(){
+  size(500, 500);
+  
+  background(255);
+  
+  stepX = random(100);
+  stepY = random(100);
+}
+ 
+void draw(){
+  
+  //for(int i =0; i<10; i++){
+  
+    float x = noise(stepX) * width;
+    float y = noise(stepY) * height;
+    
+    //float x = random(width);
+    //float y = random(height);
+    
+    stroke(0,0,0);
+    point(x, y);
+    
+    stepX += 0.01;
+    stepY += 0.01;
+  //}
+  
+}
+
+```
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/randomwork.png" width="500px">
