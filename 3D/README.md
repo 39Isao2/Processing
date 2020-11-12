@@ -189,8 +189,6 @@ int RADIUS = 300;
 float[] x = new float[POINTS];
 float[] y = new float[POINTS];
 float[] z = new float[POINTS];
-float[] size = new float[POINTS];
-
 
 void setup() {
   size(1000, 1000, P3D);
@@ -205,7 +203,6 @@ void setup() {
     x[i] = RADIUS * sin(radianTheta) * cos(radianPhi);
     y[i] = RADIUS * sin(radianTheta) * sin(radianPhi);
     z[i] = RADIUS * cos(radianTheta);
-    size[i] = random(1,5);
   }
   
 }
