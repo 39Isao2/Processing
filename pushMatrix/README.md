@@ -62,7 +62,47 @@ void draw(){
 
 
 
-## サンプル作品実践！
+## レイヤーを増やす
+
+```
+
+void setup(){
+  size(300,300);
+  rectMode(CENTER);
+}
+
+void draw(){
+  
+  background(255);
+  
+  // 原点を中心に
+  translate(width/2, height/2);
+  
+  // pushMatrix ~ popMatrixの間の座標空間が保存される
+  pushMatrix();
+      rotate(radians(frameCount*2.0));
+      fill(255,255,0);
+      rect(0,0,100,100);
+  popMatrix();
+  
+  pushMatrix();
+      rotate(radians(frameCount * 0.5));
+      fill(0,0,255);
+      rect(0,0,100,100);
+  popMatrix();
+  
+
+  fill(255,0,0);
+  rect(0,0,50,50);
+ 
+}
+
+
+```
+
+
+
+## サンプル作品
 
 ```
 
