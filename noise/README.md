@@ -15,7 +15,7 @@ http://zellij.hatenablog.com/entry/20130507/p1
 
 ```
 // 引数がいくつでも、必ず結果は0.0 ~ 1.0の間の値が返される
-// 引数には変化する値入れる。
+// 引数には増加する値入れる。
 noise();
 ```
 
@@ -77,7 +77,8 @@ void setup(){
  
 void draw(){
   
-  //for(int i =0; i<10; i++){
+  // 高速化させるためのfor
+  // for(int i =0; i<10; i++){
   
     float x = noise(stepX) * width;
     float y = noise(stepY) * height;
