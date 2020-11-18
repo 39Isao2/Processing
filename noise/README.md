@@ -85,7 +85,7 @@ void draw(){
     //float x = random(width);
     //float y = random(height);
     
-    stroke(0,0,0);
+    stroke(0);
     point(x, y);
     
     stepX += 0.01;
