@@ -1,6 +1,6 @@
 
 
-# Z軸を使った、3次元のプログラミング
+# Z軸を使った、3次元のプログラミング基礎
 
 ## boxの表示
 
@@ -223,7 +223,7 @@ void draw() {
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen.png" width="600px"> 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen2.png" width="600px"> 
 
 
 ## ノイズでアレンジ
