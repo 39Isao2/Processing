@@ -240,11 +240,11 @@ float step;
 
 void setup() {
   size(800, 800, P3D);
-  
   blendMode(ADD);
   
   stroke(0, 192, 255, 120);
   strokeWeight(4);
+  step = 0;
   
   for(int i = 0; i<POINTS; i++){
     // 球面上の座標をランダムで計算
@@ -258,11 +258,8 @@ void setup() {
     y[i] = noise(step) * y[i];
     z[i] = noise(step) * z[i];
     step+=0.5;
-    
-
   }
-  
-  step = 0;
+ 
   
 }
 
