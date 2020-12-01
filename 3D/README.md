@@ -191,7 +191,7 @@ float[] y = new float[POINTS];
 float[] z = new float[POINTS];
 
 void setup() {
-  size(1000, 1000, P3D);
+  size(800, 800, P3D);
   
   stroke(0, 192, 255, 180);
   strokeWeight(4);
@@ -239,7 +239,7 @@ float[] z = new float[POINTS];
 float step;
 
 void setup() {
-  size(1000, 1000, P3D);
+  size(800, 800, P3D);
   
   blendMode(ADD);
   
