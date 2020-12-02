@@ -183,14 +183,10 @@ void draw(){
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen_shiki.png" width="600px"> 
 
-```
-x = r * sinθ * cosφ
-y = r * sinθ * sinφ
-z = r * cosθ
-  
-参考: https://n2p5.hatenadiary.jp/entry/2018/03/30/172351
-```
-
+参考: <br>
+球面座標系(Wikipedia) https://ja.wikipedia.org/wiki/%E7%90%83%E9%9D%A2%E5%BA%A7%E6%A8%99%E7%B3%BB  <br>
+球を描く方法（球面座標系を使う） https://n2p5.hatenadiary.jp/entry/2018/03/30/172351  <br>
+http://www.isc.meiji.ac.jp/~re00079/HT.2020/20200525.html <br>
 
 
 ```
