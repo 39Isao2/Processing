@@ -181,6 +181,8 @@ void draw(){
 
 ## 球面座標の公式
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen_shiki.png" width="600px"> 
+
 ```
 x = r * sinθ * cosφ
 y = r * sinθ * sinφ
@@ -188,6 +190,7 @@ z = r * cosθ
   
 参考: https://n2p5.hatenadiary.jp/entry/2018/03/30/172351
 ```
+
 
 
 ```
