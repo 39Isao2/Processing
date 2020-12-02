@@ -211,11 +211,11 @@ void setup() {
   
   for(int i = 0; i<POINTS; i++){
     // 球面上の座標をランダムで計算
-    float radianTheta = radians(random(180));
-    float radianPhi = radians(random(360));
-    x[i] = RADIUS * sin(radianTheta) * cos(radianPhi);
-    y[i] = RADIUS * sin(radianTheta) * sin(radianPhi);
-    z[i] = RADIUS * cos(radianTheta);
+    float randTheta = radians(random(180));
+    float randPhi = radians(random(360));
+    x[i] = RADIUS * sin(randTheta) * cos(randPhi);
+    y[i] = RADIUS * sin(randTheta) * sin(randPhi);
+    z[i] = RADIUS * cos(randTheta);
   }
   
 }
