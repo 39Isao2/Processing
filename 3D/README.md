@@ -53,7 +53,7 @@ void draw() {
   
   theta = theta+0.5;
   rotateY(radians(theta));
-  sphere(150); 
+  sphere(150);    //sphere(半径);
   
   if(theta > 360){
     theta = 0;
