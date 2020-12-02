@@ -66,7 +66,7 @@ void draw() {
 
 ## z軸を使用したパーティクル
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="600px"> 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="400px"> 
 
 ```
 
@@ -113,8 +113,6 @@ void draw(){
 ```
 
 ## カラフルver
-
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p2.png" width="600px"> 
 
 ```
 int NUM = 100;
@@ -195,7 +193,7 @@ http://www.isc.meiji.ac.jp/~re00079/HT.2020/20200525.html <br>
 
 
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen2.png" width="600px"> 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen2.png" width="400px"> 
 
 
 ```
@@ -243,7 +241,7 @@ void draw() {
 ## 球面をノイズで星屑風にアレンジ
 
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/hoshikuzu.png" width="600px"> 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/hoshikuzu.png" width="400px"> 
 
 ```
 
