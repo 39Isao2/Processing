@@ -4,6 +4,8 @@
 
 ## boxの表示
 
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/3dbox.png" width="400px"> 
+
 ```
 void setup() {
   size(500, 500, P3D);
@@ -28,9 +30,11 @@ void draw() {
 }
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/3dbox.png" width="400px"> 
+
 
 ## sphereの表示
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sphere2.png" width="400px"> 
 
 ```
 
@@ -58,9 +62,11 @@ void draw() {
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/sphere2.png" width="400px"> 
+
 
 ## z軸を使用したパーティクル
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="600px"> 
 
 ```
 
@@ -106,9 +112,9 @@ void draw(){
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p1.png" width="600px"> 
-
 ## カラフルver
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p2.png" width="600px"> 
 
 ```
 int NUM = 100;
@@ -176,10 +182,12 @@ void draw(){
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/p2.png" width="600px"> 
-
 
 ## 球面座標の公式
+
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen2.png" width="600px"> 
+
 
 <img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen_shiki.png" width="600px"> 
 
@@ -229,11 +237,12 @@ void draw() {
 
 ```
 
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/kyuumen2.png" width="600px"> 
 
 
-## ノイズでアレンジ
+## 球面をノイズで星屑風にアレンジ
 
+
+<img src="https://github.com/55Kaerukun/Processing/blob/master/images/hoshikuzu.png" width="600px"> 
 
 ```
 
@@ -285,7 +294,5 @@ void draw() {
 }
 
 ```
-
-<img src="https://github.com/55Kaerukun/Processing/blob/master/images/hoshikuzu.png" width="600px"> 
 
 
